@@ -542,5 +542,9 @@ shape = SubResource("RectangleShape2D_s8mmq")
 [node name="AttackTimer" type="Timer" parent="CharacterBody2D"]
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
-position = Vector2(0, -56)
+position = Vector2(-1, -43)
 zoom = Vector2(3, 3)
+
+[node name="TextureProgressBar" type="TextureProgressBar" parent="."]
+offset_right = 189.0
+offset_bottom = 40.0
