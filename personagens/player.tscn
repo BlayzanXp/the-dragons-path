@@ -1,0 +1,294 @@
+[gd_scene load_steps=34 format=3 uid="uid://begf1x5jptk3r"]
+
+[ext_resource type="Texture2D" path="res://Adventurer-1.5/Individual Sprites/adventurer-idle-00.png" id="1_f2124"]
+[ext_resource type="Texture2D" path="res://Adventurer-1.5/Individual Sprites/adventurer-idle-01.png" id="2_7umf1"]
+[ext_resource type="Texture2D" path="res://Adventurer-1.5/Individual Sprites/adventurer-idle-02.png" id="3_0qyul"]
+[ext_resource type="Texture2D" path="res://Adventurer-1.5/Individual Sprites/adventurer-idle-03.png" id="4_7wwf0"]
+[ext_resource type="Texture2D" uid="uid://dadlconpmt68f" path="res://adventurer-jump-sem nada.png" id="5_a7d7m"]
+[ext_resource type="Texture2D" path="res://Adventurer-Hand-Combat/Individual Sprites/adventurer-punch-03.png" id="6_0h6sv"]
+[ext_resource type="Texture2D" path="res://Adventurer-Hand-Combat/Individual Sprites/adventurer-punch-05.png" id="7_w7tah"]
+[ext_resource type="Texture2D" path="res://Adventurer-Hand-Combat/Individual Sprites/adventurer-punch-04.png" id="8_q5c3e"]
+[ext_resource type="Texture2D" path="res://Adventurer-Hand-Combat/Individual Sprites/adventurer-punch-06.png" id="9_qod3f"]
+[ext_resource type="Texture2D" path="res://Adventurer-Hand-Combat/Individual Sprites/adventurer-punch-07.png" id="10_y00oo"]
+[ext_resource type="Texture2D" path="res://Adventurer-Hand-Combat/Individual Sprites/adventurer-punch-08.png" id="11_xgb0a"]
+[ext_resource type="Texture2D" uid="uid://gkxbfb5fpsqv" path="res://adventurer-run-sem nada.png" id="12_6723s"]
+[ext_resource type="Texture2D" path="res://Adventurer-Hand-Combat/Individual Sprites/adventurer-walk-00.png" id="13_tquqy"]
+[ext_resource type="Texture2D" path="res://Adventurer-Hand-Combat/Individual Sprites/adventurer-walk-01.png" id="14_3gvcd"]
+[ext_resource type="Texture2D" path="res://Adventurer-Hand-Combat/Individual Sprites/adventurer-walk-02.png" id="15_pwsv1"]
+[ext_resource type="Texture2D" path="res://Adventurer-Hand-Combat/Individual Sprites/adventurer-walk-03.png" id="16_06wyd"]
+[ext_resource type="Texture2D" path="res://Adventurer-Hand-Combat/Individual Sprites/adventurer-walk-04.png" id="17_rk8gp"]
+[ext_resource type="Texture2D" path="res://Adventurer-Hand-Combat/Individual Sprites/adventurer-walk-05.png" id="18_tmfbo"]
+
+[sub_resource type="GDScript" id="GDScript_sbr0c"]
+script/source = "extends CharacterBody2D
+
+const SPEED = 150.0
+const RUN_SPEED = 200.0
+const JUMP_VELOCITY = -300.0
+
+var health = 100  # Vida do jogador
+var attack_damage = 20  # Dano do ataque
+
+@onready var animated_sprite = $AnimatedSprite2D
+@onready var punch_timer = $PunchTimer
+@onready var attack_area = $AttackArea  # Área de ataque para acertar inimigos
+
+var is_punching = false
+var previous_animation = \"\"
+
+func _ready():
+	punch_timer.timeout.connect(_on_punch_timeout)
+
+func _physics_process(delta: float):
+	if is_punching:
+		return
+
+	if not is_on_floor():
+		velocity += get_gravity() * delta
+		if animated_sprite.animation != \"jump\":
+			animated_sprite.play(\"jump\")
+	else:
+		if Input.is_action_just_pressed(\"ui_accept\") and is_on_floor():
+			velocity.y = JUMP_VELOCITY
+
+		var direction = Input.get_axis(\"ui_left\", \"ui_right\")
+		var is_running = Input.is_action_pressed(\"shift\")
+
+		var current_speed = SPEED
+		if is_running:
+			current_speed = RUN_SPEED
+
+		if direction:
+			velocity.x = direction * current_speed
+			animated_sprite.flip_h = direction < 0
+			animated_sprite.play(\"run\" if is_running else \"walk\")
+		else:
+			velocity.x = move_toward(velocity.x, 0, SPEED)
+			animated_sprite.play(\"idle\")
+
+		# Soco: ativa ataque e dá dano nos inimigos próximos
+		if Input.is_action_just_pressed(\"mouse_click\") and punch_timer.is_stopped() and not is_punching:
+			previous_animation = animated_sprite.animation
+			animated_sprite.play(\"punch\")
+			punch_timer.start(0.5)
+			is_punching = true
+			attack()
+
+	move_and_slide()
+
+func _on_punch_timeout():
+	if previous_animation != \"\":
+		animated_sprite.play(previous_animation)
+	is_punching = false
+
+func attack():
+	for body in attack_area.get_overlapping_bodies():
+		if body.is_in_group(\"enemy\"):
+			body.take_damage(attack_damage)
+
+func take_damage(amount):
+	health -= amount
+	print(\"Vida do jogador:\", health)
+	
+	if animated_sprite.has_animation(\"hit\"):
+		animated_sprite.play(\"hit\")
+	
+	if health <= 0:
+		die()
+
+func die():
+	print(\"O jogador morreu!\")
+	queue_free()
+"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rm8yu"]
+atlas = ExtResource("5_a7d7m")
+region = Rect2(0, 0, 50, 37)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yv3hl"]
+atlas = ExtResource("5_a7d7m")
+region = Rect2(50, 0, 50, 37)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_j2wlf"]
+atlas = ExtResource("5_a7d7m")
+region = Rect2(100, 0, 50, 37)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ak7uv"]
+atlas = ExtResource("5_a7d7m")
+region = Rect2(150, 0, 50, 37)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dgf5v"]
+atlas = ExtResource("12_6723s")
+region = Rect2(0, 0, 50, 37)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7yh8r"]
+atlas = ExtResource("12_6723s")
+region = Rect2(50, 0, 50, 37)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_h5s36"]
+atlas = ExtResource("12_6723s")
+region = Rect2(100, 0, 50, 37)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lhnfk"]
+atlas = ExtResource("12_6723s")
+region = Rect2(150, 0, 50, 37)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t51cq"]
+atlas = ExtResource("12_6723s")
+region = Rect2(200, 0, 50, 37)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nexex"]
+atlas = ExtResource("12_6723s")
+region = Rect2(250, 0, 50, 37)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_vd4lb"]
+animations = [{
+"frames": [],
+"loop": true,
+"name": &"airpunch",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_f2124")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_7umf1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_0qyul")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_7wwf0")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 0.7,
+"texture": SubResource("AtlasTexture_rm8yu")
+}, {
+"duration": 0.7,
+"texture": SubResource("AtlasTexture_yv3hl")
+}, {
+"duration": 0.7,
+"texture": SubResource("AtlasTexture_j2wlf")
+}, {
+"duration": 0.7,
+"texture": SubResource("AtlasTexture_ak7uv")
+}],
+"loop": true,
+"name": &"jump",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 0.6,
+"texture": ExtResource("6_0h6sv")
+}, {
+"duration": 0.6,
+"texture": ExtResource("7_w7tah")
+}, {
+"duration": 0.7,
+"texture": ExtResource("8_q5c3e")
+}, {
+"duration": 0.9,
+"texture": ExtResource("9_qod3f")
+}, {
+"duration": 0.9,
+"texture": ExtResource("10_y00oo")
+}, {
+"duration": 0.9,
+"texture": ExtResource("11_xgb0a")
+}],
+"loop": true,
+"name": &"punch",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 0.7,
+"texture": SubResource("AtlasTexture_dgf5v")
+}, {
+"duration": 0.7,
+"texture": SubResource("AtlasTexture_7yh8r")
+}, {
+"duration": 0.7,
+"texture": SubResource("AtlasTexture_h5s36")
+}, {
+"duration": 0.7,
+"texture": SubResource("AtlasTexture_lhnfk")
+}, {
+"duration": 0.7,
+"texture": SubResource("AtlasTexture_t51cq")
+}, {
+"duration": 0.7,
+"texture": SubResource("AtlasTexture_nexex")
+}],
+"loop": true,
+"name": &"run",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 0.8,
+"texture": ExtResource("13_tquqy")
+}, {
+"duration": 0.8,
+"texture": ExtResource("14_3gvcd")
+}, {
+"duration": 0.8,
+"texture": ExtResource("15_pwsv1")
+}, {
+"duration": 0.8,
+"texture": ExtResource("16_06wyd")
+}, {
+"duration": 0.8,
+"texture": ExtResource("17_rk8gp")
+}, {
+"duration": 0.8,
+"texture": ExtResource("18_tmfbo")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4v8vw"]
+size = Vector2(20, 30.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bs7s5"]
+size = Vector2(16, 13)
+
+[sub_resource type="GDScript" id="GDScript_mscgu"]
+script/source = "extends Timer
+"
+
+[node name="joão" type="CharacterBody2D" groups=["player"]]
+position = Vector2(159, 526)
+script = SubResource("GDScript_sbr0c")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_vd4lb")
+animation = &"punch"
+autoplay = "idle"
+frame = 3
+frame_progress = 0.951019
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 2)
+shape = SubResource("RectangleShape2D_4v8vw")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(3, 3)
+limit_smoothed = true
+
+[node name="AttackArea" type="Area2D" parent="."]
+monitoring = false
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AttackArea"]
+position = Vector2(14, 2)
+shape = SubResource("RectangleShape2D_bs7s5")
+
+[node name="PunchTimer" type="Timer" parent="."]
+wait_time = 0.8
+one_shot = true
+script = SubResource("GDScript_mscgu")

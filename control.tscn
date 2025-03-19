@@ -1,0 +1,136 @@
+[gd_scene load_steps=3 format=3 uid="uid://vtaal37d6tc"]
+
+[ext_resource type="Texture2D" uid="uid://dq87iyqgtmsvr" path="res://potionheal.png" id="1_rsebj"]
+
+[sub_resource type="GDScript" id="GDScript_cegwi"]
+script/source = "extends Control
+
+enum ItemType {
+	CURE,
+	ATTACK,
+	ENERGY
+}
+
+class Item:
+	var texture: Texture
+	var type: ItemType
+
+	func _init(texture: Texture, type: ItemType):
+		self.texture = texture
+		self.type = type
+
+var items: Array = []  # Lista para armazenar os itens
+
+@onready var grid_container: GridContainer = $Panel/GridContainer  # Referência ao GridContainer onde os itens serão exibidos
+@onready var inventory_panel: Panel = $Panel  # Referência ao painel que contém o inventário
+
+# Variável para controlar o estado do menu
+var inventory_visible: bool = false
+
+# Função que é chamada quando a cena é pronta
+func _ready():
+	# Garantir que o painel de inventário esteja inicialmente escondido
+	inventory_panel.visible = false
+
+# Função para capturar a entrada do usuário
+func _input(event):
+	if event.is_action_pressed(\"ui_inventory\"):  # Verifica se a ação configurada (no caso, \"F\") foi pressionada
+		toggle_inventory()  # Alterna a visibilidade do inventário
+
+# Alterna a visibilidade do inventário
+func toggle_inventory():
+	inventory_visible = !inventory_visible
+	inventory_panel.visible = inventory_visible  # Mostra ou esconde o painel do inventário
+
+# Adiciona um item ao inventário e exibe no GridContainer
+func add_item(item_texture: Texture, item_type: ItemType):
+	var new_item = Item.new(item_texture, item_type)
+	items.append(new_item)  # Adiciona o item à lista
+	var button = Button.new()  # Cria um novo botão
+	button.icon = item_texture  # Define a imagem do item
+
+	# Conectando o botão à função intermediária usando 'bind' para passar o item corretamente
+	button.connect(\"pressed\", self, \"_on_item_pressed\", [new_item])  # Passando o item corretamente
+	grid_container.add_child(button)  # Adiciona o botão ao GridContainer
+
+# Função que é chamada quando o botão de um item é pressionado
+func _on_item_pressed(item: Item):
+	print(\"Item usado: \", item.texture)
+	if item.type == ItemType.CURE:
+		use_heal_item()
+	elif item.type == ItemType.ATTACK:
+		use_attack_item()
+	elif item.type == ItemType.ENERGY:
+		use_energy_item()
+
+# Função de cura (Exemplo)
+func use_heal_item():
+	print(\"Usando item de cura...\")
+	var cure_item_texture = preload(\"res://potionheal.png\")  # Verifique se a imagem existe
+	remove_item(cure_item_texture)  # Remover o item após o uso
+
+# Função de ataque (Exemplo)
+func use_attack_item():
+	print(\"Usando item de ataque...\")
+
+# Função de energia (Exemplo)
+func use_energy_item():
+	print(\"Usando item de energia...\")
+
+# Função para remover um item do inventário
+func remove_item(item_texture: Texture):
+	for i in range(items.size()):
+		if items[i].texture == item_texture:
+			items.erase(i)  # Remover o item da lista usando erase
+			update_inventory_display()  # Atualiza a interface após a remoção
+			break
+
+# Função para atualizar a exibição do inventário (quando itens são adicionados ou removidos)
+func update_inventory_display():
+	# Limpa o GridContainer
+	for child in grid_container.get_children():
+		child.queue_free()
+
+	# Recria os itens no GridContainer
+	for item in items:
+		var button = Button.new()
+		button.icon = item.texture
+		# Conecta o botão diretamente com o item
+		button.connect(\"pressed\", self, \"_on_item_pressed\", [item])  # Passando o item corretamente
+		grid_container.add_child(button)
+"
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 330.0
+offset_top = 171.0
+offset_right = 370.0
+offset_bottom = 211.0
+script = SubResource("GDScript_cegwi")
+
+[node name="Panel" type="Panel" parent="."]
+custom_minimum_size = Vector2(500, 300)
+layout_mode = 0
+offset_left = -1.0
+offset_right = 499.0
+offset_bottom = 300.0
+
+[node name="GridContainer" type="GridContainer" parent="Panel"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+columns = 4
+
+[node name="item1" type="Button" parent="Panel/GridContainer"]
+layout_mode = 2
+icon = ExtResource("1_rsebj")
+
+[node name="item2" type="Button" parent="Panel/GridContainer"]
+layout_mode = 2
+
+[node name="item3" type="Button" parent="Panel/GridContainer"]
+layout_mode = 2
+
+[node name="item4" type="Button" parent="Panel/GridContainer"]
+layout_mode = 2
