@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://gkxbfb5fpsqv"
-path="res://.godot/imported/adventurer-run-sem nada.png-96669e5bf8761739050caf10ff3059c7.ctex"
+uid="uid://dq87iyqgtmsvr"
+path="res://.godot/imported/potionheal.png-f78129c1836504ac85dc7e46c30cd6b7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://adventurer-run-sem nada.png"
-dest_files=["res://.godot/imported/adventurer-run-sem nada.png-96669e5bf8761739050caf10ff3059c7.ctex"]
+source_file="res://assets/potionheal.png"
+dest_files=["res://.godot/imported/potionheal.png-f78129c1836504ac85dc7e46c30cd6b7.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://du7nrbblqudhh"
-path="res://.godot/imported/weapons.png-4b70e97e5d83a6db27f68dea8efbd57e.ctex"
+uid="uid://bnhcpvubacwln"
+path="res://.godot/imported/adventurer-item.png-8b645aacbcf410cdafe5ab29537f6e43.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://weapons.png"
-dest_files=["res://.godot/imported/weapons.png-4b70e97e5d83a6db27f68dea8efbd57e.ctex"]
+source_file="res://assets/adventurer-item.png"
+dest_files=["res://.godot/imported/adventurer-item.png-8b645aacbcf410cdafe5ab29537f6e43.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d1a7mf5d8v3kt"
-path="res://.godot/imported/adventurer-attack3-00.png-ac28f81ec3a1bf5e53aee8f172e3f01c.ctex"
+uid="uid://du7nrbblqudhh"
+path="res://.godot/imported/weapons.png-552ca21a46938f361763c84a696e3f82.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://adventurer-attack3-00.png"
-dest_files=["res://.godot/imported/adventurer-attack3-00.png-ac28f81ec3a1bf5e53aee8f172e3f01c.ctex"]
+source_file="res://assets/weapons.png"
+dest_files=["res://.godot/imported/weapons.png-552ca21a46938f361763c84a696e3f82.ctex"]
 
 [params]
 

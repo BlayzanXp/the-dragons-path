@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c0pwju2eb5415"
-path="res://.godot/imported/potions.png-162a9b7c39c5b8cf12a6de16faaa923c.ctex"
+uid="uid://d1a7mf5d8v3kt"
+path="res://.godot/imported/adventurer-attack3-00.png-95aab0c8329e4864f9c31d56e8dc9e26.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://potions.png"
-dest_files=["res://.godot/imported/potions.png-162a9b7c39c5b8cf12a6de16faaa923c.ctex"]
+source_file="res://assets/adventurer-attack3-00.png"
+dest_files=["res://.godot/imported/adventurer-attack3-00.png-95aab0c8329e4864f9c31d56e8dc9e26.ctex"]
 
 [params]
 

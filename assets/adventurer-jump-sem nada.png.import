@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dadlconpmt68f"
-path="res://.godot/imported/adventurer-jump-sem nada.png-449803fd1d1f25f5917cc46e3553314e.ctex"
+path="res://.godot/imported/adventurer-jump-sem nada.png-b0d5edd74138f3421da832ce072fc2a6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://adventurer-jump-sem nada.png"
-dest_files=["res://.godot/imported/adventurer-jump-sem nada.png-449803fd1d1f25f5917cc46e3553314e.ctex"]
+source_file="res://assets/adventurer-jump-sem nada.png"
+dest_files=["res://.godot/imported/adventurer-jump-sem nada.png-b0d5edd74138f3421da832ce072fc2a6.ctex"]
 
 [params]
 

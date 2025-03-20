@@ -1,6 +1,6 @@
 [gd_scene load_steps=27 format=3 uid="uid://coddh566j3bas"]
 
-[ext_resource type="Script" path="res://personagens/character_body_2d.gd" id="1_r3mjd"]
+[ext_resource type="Script" uid="uid://dwyv8uxk4vg6k" path="res://personagens/character_body_2d.gd" id="1_r3mjd"]
 [ext_resource type="Texture2D" uid="uid://cr2jngo2gt5ve" path="res://assets/parallax_demon_woods_pack/parallax_demon_woods_pack/layers/parallax-demon-woods-far-trees.png" id="1_y7n1w"]
 [ext_resource type="Texture2D" uid="uid://bsn27p4tj4wgx" path="res://assets/Basic Asset Pack (4)/Basic Asset Pack/Basic Dragon Animations/Baby Copper Dragon/BabyCopperDragon.png" id="3_yjtgk"]
 [ext_resource type="Texture2D" uid="uid://bki2hyymmexrl" path="res://assets/Basic Asset Pack (4)/Basic Asset Pack/Basic Dragon Animations/Aqua Drake/AquaDrake.png" id="4_b56tp"]
