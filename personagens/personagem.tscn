@@ -1,4 +1,4 @@
-[gd_scene load_steps=68 format=3 uid="uid://fajjag2p5jgd"]
+[gd_scene load_steps=69 format=3 uid="uid://fajjag2p5jgd"]
 
 [ext_resource type="Texture2D" uid="uid://2w2id3rw0fmh" path="res://assets/Adventurer-1.5/Individual Sprites/adventurer-attack1-00.png" id="1_mnal5"]
 [ext_resource type="Texture2D" uid="uid://cnnlyyrup64i3" path="res://assets/Adventurer-1.5/Individual Sprites/adventurer-attack1-01.png" id="2_yjh1w"]
@@ -10,7 +10,7 @@
 [ext_resource type="Texture2D" uid="uid://bt58nfskiyhku" path="res://assets/Adventurer-1.5/Individual Sprites/adventurer-attack2-03.png" id="8_aiswa"]
 [ext_resource type="Texture2D" uid="uid://b87j2e58lem2f" path="res://assets/Adventurer-1.5/Individual Sprites/adventurer-attack2-04.png" id="9_yxfdi"]
 [ext_resource type="Texture2D" uid="uid://d2p40ppf210fw" path="res://assets/Adventurer-1.5/Individual Sprites/adventurer-attack2-05.png" id="10_j5y88"]
-[ext_resource type="Texture2D" uid="uid://d1a7mf5d8v3kt" path="res://adventurer-attack3-00.png" id="11_5wt1f"]
+[ext_resource type="Texture2D" uid="uid://d1a7mf5d8v3kt" path="res://assets/adventurer-attack3-00.png" id="11_5wt1f"]
 [ext_resource type="Texture2D" uid="uid://ceylt40k8b5et" path="res://assets/Adventurer-1.5/Individual Sprites/adventurer-attack2-01.png" id="12_m151h"]
 [ext_resource type="Texture2D" uid="uid://dl7sqcdxiiqve" path="res://assets/Adventurer-1.5/Individual Sprites/adventurer-attack3-00.png" id="13_a7woq"]
 [ext_resource type="Texture2D" uid="uid://xponl6lev0mt" path="res://assets/Adventurer-1.5/Individual Sprites/adventurer-attack3-01.png" id="14_yvoiu"]
@@ -18,8 +18,8 @@
 [ext_resource type="Texture2D" uid="uid://fmo7iohen6a5" path="res://assets/Adventurer-1.5/Individual Sprites/adventurer-attack3-03.png" id="16_7l0f6"]
 [ext_resource type="Texture2D" uid="uid://3wp1mtspo4if" path="res://assets/Adventurer-1.5/Individual Sprites/adventurer-attack3-04.png" id="17_wxipd"]
 [ext_resource type="Texture2D" uid="uid://dw405cis4cgnh" path="res://assets/Adventurer-1.5/Individual Sprites/adventurer-attack3-05.png" id="18_5nwrl"]
-[ext_resource type="Texture2D" uid="uid://btprnv4lgt2vk" path="res://adventurer-die-00.png" id="19_nm3v3"]
-[ext_resource type="Texture2D" uid="uid://c8varlviyjme3" path="res://adventurer-hurt-00.png" id="20_vt5x3"]
+[ext_resource type="Texture2D" uid="uid://btprnv4lgt2vk" path="res://assets/adventurer-die-00.png" id="19_nm3v3"]
+[ext_resource type="Texture2D" uid="uid://c8varlviyjme3" path="res://assets/adventurer-hurt-00.png" id="20_vt5x3"]
 [ext_resource type="Texture2D" uid="uid://cr2bw1vdb5jjf" path="res://assets/Adventurer-1.5/Individual Sprites/adventurer-idle-00.png" id="21_lkl5a"]
 [ext_resource type="Texture2D" uid="uid://dhmyy8mdgrgg1" path="res://assets/Adventurer-1.5/Individual Sprites/adventurer-fall-00.png" id="21_rq5nq"]
 [ext_resource type="Texture2D" uid="uid://cm0i2vmy1ysr1" path="res://assets/Adventurer-1.5/Individual Sprites/adventurer-fall-01.png" id="22_8on58"]
@@ -40,19 +40,28 @@
 [sub_resource type="GDScript" id="GDScript_pofss"]
 script/source = "extends CharacterBody2D
 
+# Constantes
 const SPEED = 300.0
 const RUN_SPEED = 250.0
 const JUMP_VELOCITY = -300.0
 const MAX_HEALTH = 100  # Vida máxima
-var health = MAX_HEALTH  # Vida atual
+const ATTACK_COOLDOWN = 1.0  # Tempo de cooldown para o ataque em segundos
 
-var animated_sprite: AnimatedSprite2D
+# Variáveis
+var health = MAX_HEALTH  # Vida atual
 var is_jumping = false
-var health_bar: ProgressBar  # Referência à barra de vida
+var is_attacking = false  # Controle de ataque
+var attack_timer = 0.0  # Temporizador do cooldown
+
+# Referências aos nós
+@onready var animated_sprite: AnimatedSprite2D = $AnimatedSprite2D
+@onready var attack_area: Area2D = $AttackArea  # Área de ataque
+@onready var health_bar: ProgressBar = get_node(\"/root/UI/HealthBar\")  # Corrija o caminho conforme necessário
 
 func _ready() -> void:
-	animated_sprite = $AnimatedSprite2D
-	health_bar = get_node(\"/root/HealthBar\")  # Caminho para o ProgressBar
+	# Se a barra de vida existir, atualiza o valor inicial
+	if health_bar:
+		health_bar.value = health
 
 # Função para receber dano
 func take_damage(amount: int) -> void:
@@ -60,66 +69,70 @@ func take_damage(amount: int) -> void:
 	if health <= 0:
 		health = 0
 		die()
-	# Atualiza a barra de vida
 	update_health_bar()
 
 # Função chamada quando o personagem morre
 func die() -> void:
-	# Aqui você pode adicionar o que acontece quando o personagem morre
 	print(\"O personagem morreu\")
-	# Por exemplo, reiniciar o nível ou exibir uma tela de Game Over
 	queue_free()  # Remove o personagem do jogo
 
-# Função para atualizar a barra de vida
+# Atualiza a barra de vida
 func update_health_bar() -> void:
-	health_bar.value = health
+	if health_bar:
+		health_bar.value = health
 
 # Lógica de movimentação do personagem
 func _physics_process(delta: float) -> void:
 	if not is_on_floor():
 		velocity += get_gravity() * delta
-		
-		# Verifica se o personagem está caindo e a animação de \"fall\" só começa se não estiver pulando
-		if velocity.y > 0 and animated_sprite.animation != \"fall\":
-			animated_sprite.animation = \"fall\"
-		
-		# Se o personagem estiver subindo, animação de \"jump\"
-		if velocity.y < 0 and animated_sprite.animation != \"jump\":
-			animated_sprite.animation = \"jump\"
-		
+		animated_sprite.animation = \"jump\" if velocity.y < 0 else \"fall\"
 		is_jumping = true
-		
-		# Permite que o personagem mude de direção enquanto estiver no ar
+	else:
 		var direction := Input.get_axis(\"ui_left\", \"ui_right\")
 		if direction != 0:
-			# Ajusta a velocidade horizontal de acordo com a direção
 			velocity.x = direction * RUN_SPEED
 			animated_sprite.flip_h = direction < 0
-	else:
-		# Quando estiver no chão, verifique o movimento do personagem
-		var direction := Input.get_axis(\"ui_left\", \"ui_right\")
-		if direction != 0:
-			var speed = RUN_SPEED
-			if animated_sprite.animation != \"run\":
-				animated_sprite.animation = \"run\"
-			velocity.x = direction * speed
-			animated_sprite.flip_h = direction < 0
+			animated_sprite.animation = \"run\"
 		else:
 			velocity.x = move_toward(velocity.x, 0, SPEED)
-			if animated_sprite.animation != \"idle\":
-				animated_sprite.animation = \"idle\"
-			if velocity.x < 0:
-				animated_sprite.flip_h = true
-			elif velocity.x > 0:
-				animated_sprite.flip_h = false
+			animated_sprite.animation = \"idle\"
 		
-		# Quando o personagem está no chão, marca que ele não está mais pulando
 		is_jumping = false
 
 	if Input.is_action_just_pressed(\"ui_accept\") and not is_jumping:
 		velocity.y = JUMP_VELOCITY
 
+	# Verifica se o botão de ataque foi pressionado e se está fora do cooldown
+	if Input.is_action_just_pressed(\"attack\") and not is_attacking and attack_timer <= 0:
+		attack()
+
+	# Atualiza o cooldown do ataque
+	if attack_timer > 0:
+		attack_timer -= delta
+
 	move_and_slide()
+
+# Função de ataque
+func attack() -> void:
+	# Marca o personagem como atacando
+	is_attacking = true
+	attack_timer = ATTACK_COOLDOWN  # Reinicia o cooldown
+
+	animated_sprite.animation = \"attack1\"  # Altere para o nome da animação de ataque
+	# A área de ataque começa a funcionar quando o ataque é executado, ativando o sinal de ataque.
+	attack_area.visible = true  # Ativa a área de ataque
+
+	# Conecta o sinal de animação para terminar o ataque
+	animated_sprite.connect(\"animation_finished\", self, \"_on_attack_finished\")
+
+# Função de callback para a animação de ataque terminar
+func _on_attack_finished() -> void:
+	# Verifica se a animação de ataque terminou
+	if animated_sprite.animation == \"attack1\":
+		is_attacking = false  # Libera o ataque
+		attack_area.visible = false  # Desativa a área de ataque após a animação
+		# Desconecta o sinal para evitar múltiplas conexões
+		animated_sprite.disconnect(\"animation_finished\", self, \"_on_attack_finished\")
 "
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_iqgxs"]
@@ -523,6 +536,9 @@ animations = [{
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_s8mmq"]
 size = Vector2(20, 30.5)
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_clkld"]
+radius = 17.0
+
 [node name="Node2D" type="Node2D"]
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
@@ -532,8 +548,9 @@ script = SubResource("GDScript_pofss")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D"]
 sprite_frames = SubResource("SpriteFrames_1ei0g")
-animation = &"fall"
+animation = &"attack1"
 autoplay = "idle"
+frame_progress = 0.880234
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
 position = Vector2(0, 2.25)
@@ -542,9 +559,11 @@ shape = SubResource("RectangleShape2D_s8mmq")
 [node name="AttackTimer" type="Timer" parent="CharacterBody2D"]
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
-position = Vector2(-1, -43)
+position = Vector2(0, -21)
 zoom = Vector2(3, 3)
 
-[node name="TextureProgressBar" type="TextureProgressBar" parent="."]
-offset_right = 189.0
-offset_bottom = 40.0
+[node name="AttackArea" type="Area2D" parent="CharacterBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D/AttackArea"]
+position = Vector2(8, -2)
+shape = SubResource("CircleShape2D_clkld")
