@@ -62,6 +62,9 @@ func _ready() -> void:
 	# Se a barra de vida existir, atualiza o valor inicial
 	if health_bar:
 		health_bar.value = health
+	
+	# Conectar o sinal de animação concluída corretamente
+	animated_sprite.connect(\"animation_finished\", Callable(self, \"_on_attack_finished\"))
 
 # Função para receber dano
 func take_damage(amount: int) -> void:
@@ -123,7 +126,7 @@ func attack() -> void:
 	attack_area.visible = true  # Ativa a área de ataque
 
 	# Conecta o sinal de animação para terminar o ataque
-	animated_sprite.connect(\"animation_finished\", self, \"_on_attack_finished\")
+	animated_sprite.connect(\"animation_finished\", Callable(self, \"_on_attack_finished\"))
 
 # Função de callback para a animação de ataque terminar
 func _on_attack_finished() -> void:
@@ -132,7 +135,7 @@ func _on_attack_finished() -> void:
 		is_attacking = false  # Libera o ataque
 		attack_area.visible = false  # Desativa a área de ataque após a animação
 		# Desconecta o sinal para evitar múltiplas conexões
-		animated_sprite.disconnect(\"animation_finished\", self, \"_on_attack_finished\")
+		animated_sprite.disconnect(\"animation_finished\", Callable(self, \"_on_attack_finished\"))
 "
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_iqgxs"]
@@ -265,7 +268,7 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("5_yyhmd")
 }],
-"loop": true,
+"loop": false,
 "name": &"attack1",
 "speed": 5.0
 }, {
@@ -300,7 +303,7 @@ animations = [{
 "duration": 0.6,
 "texture": ExtResource("10_j5y88")
 }],
-"loop": true,
+"loop": false,
 "name": &"attack2",
 "speed": 5.0
 }, {
@@ -353,7 +356,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_q1v8x")
 }],
-"loop": true,
+"loop": false,
 "name": &"attack3",
 "speed": 5.0
 }, {
@@ -409,7 +412,7 @@ animations = [{
 "duration": 1.0,
 "texture": ExtResource("18_5nwrl")
 }],
-"loop": true,
+"loop": false,
 "name": &"attack4",
 "speed": 5.0
 }, {
@@ -528,7 +531,7 @@ animations = [{
 "speed": 5.0
 }, {
 "frames": [],
-"loop": true,
+"loop": false,
 "name": &"walk",
 "speed": 5.0
 }]
@@ -542,15 +545,16 @@ radius = 17.0
 [node name="Node2D" type="Node2D"]
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+scale = Vector2(3.96982, 3.7668)
+floor_snap_length = 0.0
 platform_floor_layers = 4294967055
 platform_wall_layers = 2
 script = SubResource("GDScript_pofss")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D"]
 sprite_frames = SubResource("SpriteFrames_1ei0g")
-animation = &"attack1"
+animation = &"idle"
 autoplay = "idle"
-frame_progress = 0.880234
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
 position = Vector2(0, 2.25)
@@ -560,7 +564,7 @@ shape = SubResource("RectangleShape2D_s8mmq")
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
 position = Vector2(0, -21)
-zoom = Vector2(3, 3)
+scale = Vector2(0.306895, -0.0815175)
 
 [node name="AttackArea" type="Area2D" parent="CharacterBody2D"]
 

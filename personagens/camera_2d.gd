@@ -1,14 +1,24 @@
 extends Camera2D
 
-@onready var tilemap = $"../TileMap"  # Caminho para o TileMap
+@onready var player = get_node("/root/Node2D/Node2D/CharacterBody2D/Player")  # Caminho absoluto
+
+# Definindo o tamanho do mapa
+var mapa_largura = 1920  # Largura do mapa
+var mapa_altura = 1080  # Altura do mapa
 
 func _ready():
-	if tilemap:
-		var mapa_limites = tilemap.get_used_rect()  # Obtém o tamanho do mapa
-		var tile_size = tilemap.tile_set.tile_size  # Tamanho do tile
+	# Certifique-se de que a câmera está configurada para seguir o jogador.
+	offset = Vector2(0, 0)
 
-		limit_left = mapa_limites.position.x * tile_size.x
-		limit_top = mapa_limites.position.y * tile_size.y
-		limit_right = (mapa_limites.end.x * tile_size.x) - int(get_viewport_rect().size.x)
-		limit_bottom = (mapa_limites.end.y * tile_size.y) - int(get_viewport_rect().size.y)
- 
+func _process(_delta):  # Agora o delta é ignorado
+	# Acompanhar o jogador
+	var nova_pos = player.position
+	
+	# Limitar a posição da câmera no eixo X (horizontal)
+	nova_pos.x = clamp(nova_pos.x, mapa_largura / 2.0, mapa_largura - mapa_largura / 2.0)
+	
+	# Limitar a posição da câmera no eixo Y (vertical)
+	nova_pos.y = clamp(nova_pos.y, mapa_altura / 2.0, mapa_altura - mapa_altura / 2.0)
+	
+	# Aplicar a posição calculada à câmera
+	position = nova_pos
