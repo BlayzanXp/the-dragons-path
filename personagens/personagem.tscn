@@ -574,14 +574,14 @@ script = SubResource("GDScript_pofss")
 sprite_frames = SubResource("SpriteFrames_1ei0g")
 animation = &"slide"
 autoplay = "idle"
-frame_progress = 0.0216733
+frame_progress = 0.569533
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
 position = Vector2(0, 2.25)
 shape = SubResource("RectangleShape2D_s8mmq")
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
-position = Vector2(0, -21)
+position = Vector2(-0.503801, -41.4145)
 scale = Vector2(0.306895, -0.0815175)
 
 [node name="AttackArea" type="Area2D" parent="CharacterBody2D"]
