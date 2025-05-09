@@ -121,6 +121,9 @@ size = Vector2(79.5, 17)
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
 script = ExtResource("1_ovygd")
+speed = null
+health = null
+damage = null
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D"]
 sprite_frames = SubResource("SpriteFrames_vma64")
