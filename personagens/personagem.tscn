@@ -580,8 +580,9 @@ position = Vector2(0, 2.25)
 shape = SubResource("RectangleShape2D_s8mmq")
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
-position = Vector2(-0.503801, -41.4145)
+position = Vector2(0.503801, -50.1752)
 scale = Vector2(0.306895, -0.0815175)
+zoom = Vector2(1.5, 1.5)
 
 [node name="AttackArea" type="Area2D" parent="CharacterBody2D"]
 
