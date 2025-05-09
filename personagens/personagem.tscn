@@ -64,6 +64,7 @@ var slide_start_position = Vector2.ZERO
 
 func _ready() -> void:
 	animated_sprite.connect(\"animation_finished\", Callable(self, \"_on_attack_finished\"))
+	attack_area.visible = false
 
 func _physics_process(delta: float) -> void:
 	# Gravidade
@@ -120,6 +121,10 @@ func attack() -> void:
 	velocity.x = 0
 	animated_sprite.play(\"attack1\")  
 	attack_area.visible = true  
+
+	for body in attack_area.get_overlapping_bodies():
+		if body.is_in_group(\"inimigo\"):  # Adicione seus inimigos a esse grupo no editor
+			body.take_damage(1)
 
 func _on_attack_finished() -> void:
 	if animated_sprite.animation == \"attack1\":
