@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3 uid="uid://bfj4e002yisr7"]
+[gd_scene load_steps=15 format=3 uid="uid://bfj4e002yisr7"]
 
 [ext_resource type="Texture2D" uid="uid://d36ablj03thxn" path="res://assets/forest-nature-fantasy-tileset-free/Fantasy Swamp Forest/Free/BG_3/BG_3.png" id="1_kdubu"]
 [ext_resource type="Texture2D" uid="uid://cxdbsso32nnrk" path="res://assets/forest-nature-fantasy-tileset-free/Fantasy Swamp Forest/Free/BG_2/BG_2.png" id="2_d21ai"]
@@ -8,7 +8,6 @@
 [ext_resource type="Texture2D" uid="uid://rkpwl85nv17c" path="res://assets/Dungeon Tile Set/Dungeon Tile Set/Dungeon Tile Set.png" id="5_d21ai"]
 [ext_resource type="Texture2D" uid="uid://ms3a4brqod0o" path="res://assets/oak_woods_v1.0/oak_woods_v1.0/oak_woods_tileset.png" id="6_d21ai"]
 [ext_resource type="Texture2D" uid="uid://d1jypsbrpcxpj" path="res://assets/Pixel Art Platformer - Village Props v2.3.0/Texture/TX Tileset Ground.png" id="7_rj586"]
-[ext_resource type="PackedScene" uid="uid://hnxjdymcyed" path="res://personagens/1.tscn" id="9_4d7sh"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_rj586"]
 texture = ExtResource("4_kdubu")
@@ -4017,8 +4016,8 @@ texture = ExtResource("1_kdubu")
 motion_scale = Vector2(0.5, 0.5)
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer2"]
-position = Vector2(1632.5, 543.5)
-scale = Vector2(1.79692, 2.69447)
+position = Vector2(1634, 543.5)
+scale = Vector2(1.79857, 2.69447)
 texture = ExtResource("2_d21ai")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
@@ -4034,7 +4033,3 @@ layer_0/tile_data = PackedInt32Array(61277278, 917505, 0, 61342814, 917505, 1, 6
 
 [node name="Node2D" parent="." instance=ExtResource("2_yhfbo")]
 position = Vector2(325, 839)
-
-[node name="Node2D2" parent="." instance=ExtResource("9_4d7sh")]
-position = Vector2(1610, 957)
-scale = Vector2(4.85421, 4.65182)

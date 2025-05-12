@@ -266,20 +266,17 @@ region = Rect2(200, 0, 50, 37)
 [sub_resource type="SpriteFrames" id="SpriteFrames_1ei0g"]
 animations = [{
 "frames": [{
-"duration": 1.0,
+"duration": 0.8,
 "texture": ExtResource("1_mnal5")
 }, {
-"duration": 1.0,
+"duration": 0.8,
 "texture": ExtResource("2_yjh1w")
 }, {
-"duration": 1.0,
+"duration": 0.8,
 "texture": ExtResource("3_6hxp1")
 }, {
-"duration": 1.0,
+"duration": 0.8,
 "texture": ExtResource("4_hj6hd")
-}, {
-"duration": 1.0,
-"texture": ExtResource("5_yyhmd")
 }],
 "loop": false,
 "name": &"attack1",
@@ -577,8 +574,10 @@ script = SubResource("GDScript_pofss")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D"]
 sprite_frames = SubResource("SpriteFrames_1ei0g")
-animation = &"idle"
+animation = &"attack1"
 autoplay = "idle"
+frame = 3
+frame_progress = 1.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
 position = Vector2(0, 2.25)
