@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://boc1vv31uvaq"
-path="res://.godot/imported/Attack3.png-50164258c841b6b8cdd1a7038d9b6444.ctex"
+path="res://.godot/imported/Attack3.png-047bffacbdc95774e2864f71178702a7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Monster_Creatures_Fantasy(Version 1.3)/Monster_Creatures_Fantasy(Version 1.3)/Goblin/Attack3.png"
-dest_files=["res://.godot/imported/Attack3.png-50164258c841b6b8cdd1a7038d9b6444.ctex"]
+source_file="res://assets/Monster_Creatures_Fantasy(Version 1.3)/Goblin/Attack3.png"
+dest_files=["res://.godot/imported/Attack3.png-047bffacbdc95774e2864f71178702a7.ctex"]
 
 [params]
 

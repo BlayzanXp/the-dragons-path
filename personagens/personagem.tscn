@@ -484,21 +484,21 @@ animations = [{
 "speed": 5.0
 }, {
 "frames": [{
-"duration": 0.8,
+"duration": 0.1,
 "texture": ExtResource("21_lkl5a")
 }, {
-"duration": 0.8,
+"duration": 0.1,
 "texture": ExtResource("22_kl7wk")
 }, {
-"duration": 0.8,
+"duration": 0.1,
 "texture": ExtResource("23_ly410")
 }, {
-"duration": 0.8,
+"duration": 0.1,
 "texture": ExtResource("24_bydg3")
 }],
 "loop": true,
 "name": &"idle",
-"speed": 5.0
+"speed": 120.0
 }, {
 "frames": [{
 "duration": 0.6,
@@ -558,7 +558,7 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_s8mmq"]
-size = Vector2(20, 30.5)
+size = Vector2(12.0912, 24.9549)
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_clkld"]
 radius = 17.0
@@ -566,6 +566,7 @@ radius = 17.0
 [node name="Node2D" type="Node2D"]
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+position = Vector2(1, 1.99998)
 scale = Vector2(3.96982, 3.7668)
 floor_snap_length = 0.0
 platform_floor_layers = 4294967055
@@ -574,13 +575,11 @@ script = SubResource("GDScript_pofss")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="CharacterBody2D"]
 sprite_frames = SubResource("SpriteFrames_1ei0g")
-animation = &"attack1"
+animation = &"idle"
 autoplay = "idle"
-frame = 3
-frame_progress = 1.0
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
-position = Vector2(0, 2.25)
+position = Vector2(-0.2519, 3.18573)
 shape = SubResource("RectangleShape2D_s8mmq")
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
