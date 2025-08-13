@@ -484,21 +484,21 @@ animations = [{
 "speed": 5.0
 }, {
 "frames": [{
-"duration": 0.1,
+"duration": 0.7,
 "texture": ExtResource("21_lkl5a")
 }, {
-"duration": 0.1,
+"duration": 0.71,
 "texture": ExtResource("22_kl7wk")
 }, {
-"duration": 0.1,
+"duration": 0.7,
 "texture": ExtResource("23_ly410")
 }, {
-"duration": 0.1,
+"duration": 0.7,
 "texture": ExtResource("24_bydg3")
 }],
 "loop": true,
 "name": &"idle",
-"speed": 120.0
+"speed": 5.0
 }, {
 "frames": [{
 "duration": 0.6,
@@ -583,7 +583,7 @@ position = Vector2(-0.2519, 3.18573)
 shape = SubResource("RectangleShape2D_s8mmq")
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
-position = Vector2(0.503801, -50.1752)
+position = Vector2(-5.96046e-08, -42.4764)
 scale = Vector2(0.306895, -0.0815175)
 zoom = Vector2(1.5, 1.5)
 

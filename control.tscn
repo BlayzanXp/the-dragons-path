@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://vtaal37d6tc"]
 
-[ext_resource type="Texture2D" uid="uid://dq87iyqgtmsvr" path="res://potionheal.png" id="1_rsebj"]
+[ext_resource type="Texture2D" uid="uid://dq87iyqgtmsvr" path="res://assets/potionheal.png" id="1_rsebj"]
 
 [sub_resource type="GDScript" id="GDScript_cegwi"]
 script/source = "extends Control
