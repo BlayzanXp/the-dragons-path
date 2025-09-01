@@ -149,6 +149,20 @@ func stop_slide() -> void:
 	is_sliding = false
 	velocity.x = 0
 	animated_sprite.play(\"idle\")
+
+
+# -------------------------
+# NOVA PARTE: DANO E MORTE
+# -------------------------
+func take_damage(amount: int) -> void:
+	health -= amount
+	print(\"Player levou dano! Vida: \", health)
+	if health <= 0:
+		die()
+
+func die() -> void:
+	print(\"Player morreu!\")
+	queue_free()  # Remove o personagem da cena (pode trocar por tela de game over)
 "
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_iqgxs"]
@@ -565,7 +579,7 @@ radius = 17.0
 
 [node name="Node2D" type="Node2D"]
 
-[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." groups=["player"]]
 position = Vector2(1, 1.99998)
 scale = Vector2(3.96982, 3.7668)
 floor_snap_length = 0.0

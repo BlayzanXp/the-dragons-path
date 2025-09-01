@@ -1,4 +1,4 @@
-[gd_scene load_steps=22 format=3 uid="uid://bfj4e002yisr7"]
+[gd_scene load_steps=23 format=3 uid="uid://bfj4e002yisr7"]
 
 [ext_resource type="Texture2D" uid="uid://bqoc06owghu7e" path="res://assets/Final/Final/Tiles.png" id="1_4d7sh"]
 [ext_resource type="Texture2D" uid="uid://d36ablj03thxn" path="res://assets/forest-nature-fantasy-tileset-free/Fantasy Swamp Forest/Free/BG_3/BG_3.png" id="1_kdubu"]
@@ -10,6 +10,7 @@
 [ext_resource type="Texture2D" uid="uid://rkpwl85nv17c" path="res://assets/Dungeon Tile Set/Dungeon Tile Set/Dungeon Tile Set.png" id="5_d21ai"]
 [ext_resource type="Texture2D" uid="uid://ms3a4brqod0o" path="res://assets/oak_woods_v1.0/oak_woods_v1.0/oak_woods_tileset.png" id="6_d21ai"]
 [ext_resource type="Texture2D" uid="uid://d1jypsbrpcxpj" path="res://assets/Pixel Art Platformer - Village Props v2.3.0/Texture/TX Tileset Ground.png" id="7_rj586"]
+[ext_resource type="PackedScene" uid="uid://bmgyw5533ky6l" path="res://personagens/Enemy.tscn" id="11_hqns4"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_x0ka3"]
 texture = ExtResource("1_4d7sh")
@@ -6623,3 +6624,7 @@ layer_1/tile_data = PackedInt32Array(1376322, 3276800, 1, 1376323, 3211264, 1, 1
 
 [node name="Node2D" parent="." instance=ExtResource("2_yhfbo")]
 position = Vector2(736, 858)
+
+[node name="Node2D2" parent="." instance=ExtResource("11_hqns4")]
+position = Vector2(1855, 958)
+scale = Vector2(9.50097, 10.0951)
