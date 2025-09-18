@@ -119,6 +119,8 @@ script = ExtResource("1_7sgot")
 jogador = NodePath("")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Enemy"]
+light_mask = 7
+visibility_layer = 7
 position = Vector2(0.13020857, 3.2407408)
 shape = SubResource("RectangleShape2D_6ptyv")
 

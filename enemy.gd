@@ -23,11 +23,10 @@ func _ready():
 
 func _physics_process(_delta: float) -> void:
 	if not is_instance_valid(jogador):
-		velocity = Vector2.ZERO
+		velocity.x = 0
 		move_and_slide()
 		return
 
-	# Adicionando a gravidade para que o inimigo caia no chão
 	velocity.y += GRAVITY * _delta
 
 	var direcao_para_jogador: Vector2 = jogador.position - position
