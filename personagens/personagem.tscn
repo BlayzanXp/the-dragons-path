@@ -63,106 +63,109 @@ var slide_start_position = Vector2.ZERO
 @onready var attack_area: Area2D = $AttackArea  
 
 func _ready() -> void:
-	animated_sprite.connect(\"animation_finished\", Callable(self, \"_on_attack_finished\"))
-	attack_area.visible = false
+    animated_sprite.animation_finished.connect(_on_attack_finished)
+    attack_area.visible = false
 
 func _physics_process(delta: float) -> void:
-	# Gravidade
-	if not is_on_floor():
-		velocity.y += GRAVITY * delta
-		is_jumping = true
-	else:
-		is_jumping = false
+    if not is_on_floor():
+        velocity.y += GRAVITY * delta
+        is_jumping = true
+    else:
+        is_jumping = false
 
-	# Travar controles durante ataque
-	if is_attacking:
-		velocity.x = 0
-		move_and_slide()
-		return
+    if is_attacking:
+        velocity.x = 0
+        move_and_slide()
+        return
 
-	# Slide
-	if is_sliding:
-		check_slide_end()
-		move_and_slide()
-		return
+    if is_sliding:
+        check_slide_end()
+        if not is_sliding:
+            move_and_slide()
+            return
+        
+        velocity.x = (1 if not animated_sprite.flip_h else -1) * SLIDE_SPEED
+        # Corrigido: `_collision_info` para indicar que a variável não é usada
+        var _collision_info = move_and_slide() 
+        for i in get_slide_collision_count():
+            var collision = get_slide_collision(i)
+            if collision.get_collider() and abs(collision.get_normal().x) > 0.5:
+                stop_slide()
+                return
+        return
 
-	# Movimento horizontal
-	var direction := Input.get_axis(\"ui_left\", \"ui_right\")
-	if direction != 0:
-		velocity.x = direction * RUN_SPEED
-		animated_sprite.flip_h = direction < 0
-		if not is_jumping:
-			animated_sprite.play(\"run\")
-	else:
-		velocity.x = move_toward(velocity.x, 0, SPEED)
-		if not is_jumping:
-			animated_sprite.play(\"idle\")
+    var direction := Input.get_axis(\"ui_left\", \"ui_right\")
+    if direction != 0:
+        velocity.x = direction * RUN_SPEED
+        animated_sprite.flip_h = direction < 0
+        if not is_jumping:
+            animated_sprite.play(\"run\")
+    else:
+        velocity.x = move_toward(velocity.x, 0, SPEED)
+        if not is_jumping:
+            animated_sprite.play(\"idle\")
 
-	# Pulo
-	if Input.is_action_just_pressed(\"ui_accept\") and not is_jumping:
-		velocity.y = JUMP_VELOCITY
+    if Input.is_action_just_pressed(\"ui_accept\") and not is_jumping:
+        velocity.y = JUMP_VELOCITY
 
-	# Animação de pulo
-	if is_jumping:
-		animated_sprite.play(\"jump\" if velocity.y < 0 else \"fall\")
+    if is_jumping:
+        animated_sprite.play(\"jump\" if velocity.y < 0 else \"fall\")
 
-	# Ataque (apenas no chão)
-	if Input.is_action_just_pressed(\"attack\") and not is_attacking and is_on_floor():
-		attack()
+    if Input.is_action_just_pressed(\"attack\") and not is_attacking and is_on_floor():
+        attack()
 
-	# Slide
-	if Input.is_action_just_pressed(\"ui_down\") and not is_sliding and is_on_floor():
-		start_slide()
+    if Input.is_action_just_pressed(\"ui_down\") and not is_sliding and is_on_floor():
+        start_slide()
 
-	move_and_slide()
+    move_and_slide()
 
 func attack() -> void:
-	is_attacking = true
-	velocity.x = 0
-	animated_sprite.play(\"attack1\")  
-	attack_area.visible = true  
+    is_attacking = true
+    velocity.x = 0
+    animated_sprite.play(\"attack1\")  
+    attack_area.visible = true  
 
-	for body in attack_area.get_overlapping_bodies():
-		if body.is_in_group(\"inimigo\"):  # Adicione seus inimigos a esse grupo no editor
-			body.take_damage(1)
+    for body in attack_area.get_overlapping_bodies():
+        if not is_instance_valid(body):
+            continue
+        if body.is_in_group(\"inimigo\"):  
+            body.take_damage(25)
 
 func _on_attack_finished() -> void:
-	if animated_sprite.animation == \"attack1\":
-		is_attacking = false
-		attack_area.visible = false  
-		if is_jumping:
-			animated_sprite.play(\"jump\" if velocity.y < 0 else \"fall\")
-		else:
-			animated_sprite.play(\"idle\")
+    if animated_sprite.animation == \"attack1\":
+        is_attacking = false
+        attack_area.visible = false  
+        if is_jumping:
+            animated_sprite.play(\"jump\" if velocity.y < 0 else \"fall\")
+        else:
+            animated_sprite.play(\"idle\")
 
 func start_slide() -> void:
-	is_sliding = true
-	slide_start_position = position
-	velocity.x = (1 if not animated_sprite.flip_h else -1) * SLIDE_SPEED
-	animated_sprite.play(\"slide\")  
+    if is_sliding: return
+    is_sliding = true
+    slide_start_position = position
+    animated_sprite.play(\"slide\")  
 
 func check_slide_end() -> void:
-	if abs(position.x - slide_start_position.x) >= SLIDE_DISTANCE or not is_on_floor():
-		stop_slide()
+    if abs(position.x - slide_start_position.x) >= SLIDE_DISTANCE or (is_on_floor() and velocity.x == 0):
+        stop_slide()
 
 func stop_slide() -> void:
-	is_sliding = false
-	velocity.x = 0
-	animated_sprite.play(\"idle\")
+    if not is_sliding: return
+    is_sliding = false
+    velocity.x = 0
+    if is_jumping:
+        animated_sprite.play(\"jump\" if velocity.y < 0 else \"fall\")
+    else:
+        animated_sprite.play(\"idle\")
 
-
-# -------------------------
-# NOVA PARTE: DANO E MORTE
-# -------------------------
 func take_damage(amount: int) -> void:
-	health -= amount
-	print(\"Player levou dano! Vida: \", health)
-	if health <= 0:
-		die()
+    health -= amount
+    if health <= 0:
+        die()
 
 func die() -> void:
-	print(\"Player morreu!\")
-	queue_free()  # Remove o personagem da cena (pode trocar por tela de game over)
+    queue_free()
 "
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_iqgxs"]
