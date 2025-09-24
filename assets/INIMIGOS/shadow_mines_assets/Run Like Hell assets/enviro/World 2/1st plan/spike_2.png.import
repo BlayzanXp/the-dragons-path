@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dpli8gwr7yp3f"
-path="res://.godot/imported/spike_2.png-1a781a140c174adcc5bab10477f3d702.ctex"
+path="res://.godot/imported/spike_2.png-f6f2a0cd0ad89786b3f133a0bc31912e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/shadow_mines_assets/Run Like Hell assets/enviro/World 2/1st plan/spike_2.png"
-dest_files=["res://.godot/imported/spike_2.png-1a781a140c174adcc5bab10477f3d702.ctex"]
+source_file="res://assets/INIMIGOS/shadow_mines_assets/Run Like Hell assets/enviro/World 2/1st plan/spike_2.png"
+dest_files=["res://.godot/imported/spike_2.png-f6f2a0cd0ad89786b3f133a0bc31912e.ctex"]
 
 [params]
 

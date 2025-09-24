@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://clppjr0s2mqr6"
-path="res://.godot/imported/adventurer-die-00.png-87e42e323333b4aab3c23c8ae635914e.ctex"
+path="res://.godot/imported/adventurer-die-00.png-1f39f17eccd5b219c0843461d01904bb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Adventurer-1.5/Individual Sprites/adventurer-die-00.png"
-dest_files=["res://.godot/imported/adventurer-die-00.png-87e42e323333b4aab3c23c8ae635914e.ctex"]
+source_file="res://assets/PERSONAGEM/Adventurer-1.5/Individual Sprites/adventurer-die-00.png"
+dest_files=["res://.godot/imported/adventurer-die-00.png-1f39f17eccd5b219c0843461d01904bb.ctex"]
 
 [params]
 

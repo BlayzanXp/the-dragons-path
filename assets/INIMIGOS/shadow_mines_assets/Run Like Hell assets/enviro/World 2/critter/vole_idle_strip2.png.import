@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bc4ojju6sbu7o"
-path="res://.godot/imported/vole_idle_strip2.png-5cf19608b3757f80ffa80f24773bbf56.ctex"
+path="res://.godot/imported/vole_idle_strip2.png-9c3bd9d3e8b2d42be535e8a3a4b46736.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/shadow_mines_assets/Run Like Hell assets/enviro/World 2/critter/vole_idle_strip2.png"
-dest_files=["res://.godot/imported/vole_idle_strip2.png-5cf19608b3757f80ffa80f24773bbf56.ctex"]
+source_file="res://assets/INIMIGOS/shadow_mines_assets/Run Like Hell assets/enviro/World 2/critter/vole_idle_strip2.png"
+dest_files=["res://.godot/imported/vole_idle_strip2.png-9c3bd9d3e8b2d42be535e8a3a4b46736.ctex"]
 
 [params]
 

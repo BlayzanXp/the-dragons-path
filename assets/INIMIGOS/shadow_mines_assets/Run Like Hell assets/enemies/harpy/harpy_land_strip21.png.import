@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cw6qhjj61dquu"
-path="res://.godot/imported/harpy_land_strip21.png-bdc48feea257c309dfb68034d761c7f6.ctex"
+path="res://.godot/imported/harpy_land_strip21.png-a8cb6a06f4d080df05500c29f4cdc643.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/shadow_mines_assets/Run Like Hell assets/enemies/harpy/harpy_land_strip21.png"
-dest_files=["res://.godot/imported/harpy_land_strip21.png-bdc48feea257c309dfb68034d761c7f6.ctex"]
+source_file="res://assets/INIMIGOS/shadow_mines_assets/Run Like Hell assets/enemies/harpy/harpy_land_strip21.png"
+dest_files=["res://.godot/imported/harpy_land_strip21.png-a8cb6a06f4d080df05500c29f4cdc643.ctex"]
 
 [params]
 

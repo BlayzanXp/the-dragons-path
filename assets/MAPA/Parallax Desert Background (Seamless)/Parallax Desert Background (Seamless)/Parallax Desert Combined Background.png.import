@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cvdkqdqsc31vp"
-path="res://.godot/imported/Parallax Desert Combined Background.png-29438d4718dc6eee4a65aa6c505855d4.ctex"
+path="res://.godot/imported/Parallax Desert Combined Background.png-271bd628f0ac83b8e3bd7d31014b9032.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Parallax Desert Background (Seamless)/Parallax Desert Background (Seamless)/Parallax Desert Combined Background.png"
-dest_files=["res://.godot/imported/Parallax Desert Combined Background.png-29438d4718dc6eee4a65aa6c505855d4.ctex"]
+source_file="res://assets/MAPA/Parallax Desert Background (Seamless)/Parallax Desert Background (Seamless)/Parallax Desert Combined Background.png"
+dest_files=["res://.godot/imported/Parallax Desert Combined Background.png-271bd628f0ac83b8e3bd7d31014b9032.ctex"]
 
 [params]
 

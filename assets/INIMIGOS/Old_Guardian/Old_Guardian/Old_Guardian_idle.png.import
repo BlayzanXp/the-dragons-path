@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c2rmt37k43ikt"
-path="res://.godot/imported/Old_Guardian_idle.png-c51b0a702227ddcc83f801ff3cfc87d9.ctex"
+path="res://.godot/imported/Old_Guardian_idle.png-e9e8ce0a762a5efb4eab80780b851b51.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Guardian/Old_Guardian/Old_Guardian_idle.png"
-dest_files=["res://.godot/imported/Old_Guardian_idle.png-c51b0a702227ddcc83f801ff3cfc87d9.ctex"]
+source_file="res://assets/INIMIGOS/Old_Guardian/Old_Guardian/Old_Guardian_idle.png"
+dest_files=["res://.godot/imported/Old_Guardian_idle.png-e9e8ce0a762a5efb4eab80780b851b51.ctex"]
 
 [params]
 

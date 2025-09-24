@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bb84x5773b4cj"
-path="res://.godot/imported/Old_Guardian_death.png-63912100065589ee54cb46e8bfa62429.ctex"
+path="res://.godot/imported/Old_Guardian_death.png-8288dcac1143ec00550fbc2fc2777447.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Guardian/Old_Guardian/Old_Guardian_death.png"
-dest_files=["res://.godot/imported/Old_Guardian_death.png-63912100065589ee54cb46e8bfa62429.ctex"]
+source_file="res://assets/INIMIGOS/Old_Guardian/Old_Guardian/Old_Guardian_death.png"
+dest_files=["res://.godot/imported/Old_Guardian_death.png-8288dcac1143ec00550fbc2fc2777447.ctex"]
 
 [params]
 

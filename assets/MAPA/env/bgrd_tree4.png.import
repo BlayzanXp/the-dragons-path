@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c1w8fwpao22rq"
-path="res://.godot/imported/bgrd_tree4.png-74851127f7210122c2ef9f9fb203c859.ctex"
+path="res://.godot/imported/bgrd_tree4.png-f47416b2773e4266784ae96703460fcb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/env/bgrd_tree4.png"
-dest_files=["res://.godot/imported/bgrd_tree4.png-74851127f7210122c2ef9f9fb203c859.ctex"]
+source_file="res://assets/MAPA/env/bgrd_tree4.png"
+dest_files=["res://.godot/imported/bgrd_tree4.png-f47416b2773e4266784ae96703460fcb.ctex"]
 
 [params]
 

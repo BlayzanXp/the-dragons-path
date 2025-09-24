@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://hd5ohir2bfea"
-path="res://.godot/imported/Old_Golem_hit.png-33eeb32231fe2508df82fbfecf3fcaad.ctex"
+path="res://.godot/imported/Old_Golem_hit.png-c141aeda8ecd14fd4b8cf2a7bae1980a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Golem/Old_Golem/Old_Golem_hit.png"
-dest_files=["res://.godot/imported/Old_Golem_hit.png-33eeb32231fe2508df82fbfecf3fcaad.ctex"]
+source_file="res://assets/INIMIGOS/Old_Golem/Old_Golem/Old_Golem_hit.png"
+dest_files=["res://.godot/imported/Old_Golem_hit.png-c141aeda8ecd14fd4b8cf2a7bae1980a.ctex"]
 
 [params]
 

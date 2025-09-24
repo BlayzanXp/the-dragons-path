@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bf6d0a2lrdwr8"
-path="res://.godot/imported/rock_mini1.png-f1daa82ef94234b1b23b9cba0645f5a8.ctex"
+path="res://.godot/imported/rock_mini1.png-879234de197f2aecfccdd516393ed0a2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/shadow_mines_assets/Run Like Hell assets/enviro/World 1/rock_mini1.png"
-dest_files=["res://.godot/imported/rock_mini1.png-f1daa82ef94234b1b23b9cba0645f5a8.ctex"]
+source_file="res://assets/INIMIGOS/shadow_mines_assets/Run Like Hell assets/enviro/World 1/rock_mini1.png"
+dest_files=["res://.godot/imported/rock_mini1.png-879234de197f2aecfccdd516393ed0a2.ctex"]
 
 [params]
 

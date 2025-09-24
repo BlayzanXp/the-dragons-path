@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bpgfoyus83imo"
-path="res://.godot/imported/background_barrels2.png-0ae154739dd88351dcbc2618c8948c62.ctex"
+path="res://.godot/imported/background_barrels2.png-c2adc461f1bf49d7d134cacbeff73b23.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/shadow_mines_assets/Run Like Hell assets/enviro/World 1/props/background_barrels2.png"
-dest_files=["res://.godot/imported/background_barrels2.png-0ae154739dd88351dcbc2618c8948c62.ctex"]
+source_file="res://assets/INIMIGOS/shadow_mines_assets/Run Like Hell assets/enviro/World 1/props/background_barrels2.png"
+dest_files=["res://.godot/imported/background_barrels2.png-c2adc461f1bf49d7d134cacbeff73b23.ctex"]
 
 [params]
 

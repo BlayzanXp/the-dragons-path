@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ieeqsm2gw3bx"
-path="res://.godot/imported/adventurer-run-punch-02.png-bf22880300fbbd8007b532ecc64c2f67.ctex"
+path="res://.godot/imported/adventurer-run-punch-02.png-d2d38dab50c7b7eba3e46ace934ee497.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Adventurer-Hand-Combat/Individual Sprites/adventurer-run-punch-02.png"
-dest_files=["res://.godot/imported/adventurer-run-punch-02.png-bf22880300fbbd8007b532ecc64c2f67.ctex"]
+source_file="res://assets/PERSONAGEM/Adventurer-Hand-Combat/Individual Sprites/adventurer-run-punch-02.png"
+dest_files=["res://.godot/imported/adventurer-run-punch-02.png-d2d38dab50c7b7eba3e46ace934ee497.ctex"]
 
 [params]
 

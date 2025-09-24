@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b0m5y3noxbicj"
-path="res://.godot/imported/wall_4.png-c9c665dbb709c5ff0c342d584bc77447.ctex"
+path="res://.godot/imported/wall_4.png-88c044e06bc9492612b2c5bf01460250.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Medieval_Castle_Asset_Pack/Medieval_Castle_Asset_Pack/Tiles/wall_4.png"
-dest_files=["res://.godot/imported/wall_4.png-c9c665dbb709c5ff0c342d584bc77447.ctex"]
+source_file="res://assets/MAPA/Medieval_Castle_Asset_Pack/Medieval_Castle_Asset_Pack/Tiles/wall_4.png"
+dest_files=["res://.godot/imported/wall_4.png-88c044e06bc9492612b2c5bf01460250.ctex"]
 
 [params]
 

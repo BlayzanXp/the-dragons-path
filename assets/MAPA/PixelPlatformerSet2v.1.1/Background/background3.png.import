@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dhcehkh5mbdlt"
-path="res://.godot/imported/background3.png-0c70515d12cabd42fa008d54b4092772.ctex"
+path="res://.godot/imported/background3.png-6c20f4aa1edb7e2c19697fe9576b2694.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/PixelPlatformerSet2v.1.1/Background/background3.png"
-dest_files=["res://.godot/imported/background3.png-0c70515d12cabd42fa008d54b4092772.ctex"]
+source_file="res://assets/MAPA/PixelPlatformerSet2v.1.1/Background/background3.png"
+dest_files=["res://.godot/imported/background3.png-6c20f4aa1edb7e2c19697fe9576b2694.ctex"]
 
 [params]
 

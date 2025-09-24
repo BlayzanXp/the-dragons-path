@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://blo55c6y07fhr"
-path="res://.godot/imported/stairs_wood_carpet_1.png-4531a758cca01b27085c4a82180bb73d.ctex"
+path="res://.godot/imported/stairs_wood_carpet_1.png-9e6dce325ca126e59e1e8005b8f0227a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Medieval_Castle_Asset_Pack/Medieval_Castle_Asset_Pack/Tiles/stairs_wood_carpet_1.png"
-dest_files=["res://.godot/imported/stairs_wood_carpet_1.png-4531a758cca01b27085c4a82180bb73d.ctex"]
+source_file="res://assets/MAPA/Medieval_Castle_Asset_Pack/Medieval_Castle_Asset_Pack/Tiles/stairs_wood_carpet_1.png"
+dest_files=["res://.godot/imported/stairs_wood_carpet_1.png-9e6dce325ca126e59e1e8005b8f0227a.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dand4piul2shb"
-path="res://.godot/imported/merlons_5.png-8166b8972373f5e2c27eaf34e14b35e5.ctex"
+path="res://.godot/imported/merlons_5.png-097aa916fb00d6547195654b530f52d6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Medieval_Castle_Asset_Pack/Medieval_Castle_Asset_Pack/Tiles/merlons_5.png"
-dest_files=["res://.godot/imported/merlons_5.png-8166b8972373f5e2c27eaf34e14b35e5.ctex"]
+source_file="res://assets/MAPA/Medieval_Castle_Asset_Pack/Medieval_Castle_Asset_Pack/Tiles/merlons_5.png"
+dest_files=["res://.godot/imported/merlons_5.png-097aa916fb00d6547195654b530f52d6.ctex"]
 
 [params]
 

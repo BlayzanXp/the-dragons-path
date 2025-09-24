@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cis57a4fyyslb"
-path="res://.godot/imported/kapelusz_0.png-add4b5e945d5b6d8a69c09465491263f.ctex"
+path="res://.godot/imported/kapelusz_0.png-9fac5f960f6e844a064383510fc28326.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/shadow_mines_assets/Run Like Hell assets/enviro/World 2/muschrooms/kapelusz_0.png"
-dest_files=["res://.godot/imported/kapelusz_0.png-add4b5e945d5b6d8a69c09465491263f.ctex"]
+source_file="res://assets/INIMIGOS/shadow_mines_assets/Run Like Hell assets/enviro/World 2/muschrooms/kapelusz_0.png"
+dest_files=["res://.godot/imported/kapelusz_0.png-9fac5f960f6e844a064383510fc28326.ctex"]
 
 [params]
 

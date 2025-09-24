@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ealfvtvghsf2"
-path="res://.godot/imported/adventurer-bow-jump-00.png-9b633a750adf1224657f67f77380833e.ctex"
+path="res://.godot/imported/adventurer-bow-jump-00.png-ee374cc66c1ae6ed1a3f960362fc4dba.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Adventurer-Bow/Individual Sprites/adventurer-bow-jump-00.png"
-dest_files=["res://.godot/imported/adventurer-bow-jump-00.png-9b633a750adf1224657f67f77380833e.ctex"]
+source_file="res://assets/PERSONAGEM/Adventurer-Bow/Individual Sprites/adventurer-bow-jump-00.png"
+dest_files=["res://.godot/imported/adventurer-bow-jump-00.png-ee374cc66c1ae6ed1a3f960362fc4dba.ctex"]
 
 [params]
 

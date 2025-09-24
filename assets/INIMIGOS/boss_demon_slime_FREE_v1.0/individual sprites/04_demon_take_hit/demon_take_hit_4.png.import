@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b0odedy6sd4ki"
-path="res://.godot/imported/demon_take_hit_4.png-56d4de872612c43dff85d0c955e967c1.ctex"
+path="res://.godot/imported/demon_take_hit_4.png-34d50222dae6812b285b46a42c006b40.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/boss_demon_slime_FREE_v1.0/individual sprites/04_demon_take_hit/demon_take_hit_4.png"
-dest_files=["res://.godot/imported/demon_take_hit_4.png-56d4de872612c43dff85d0c955e967c1.ctex"]
+source_file="res://assets/INIMIGOS/boss_demon_slime_FREE_v1.0/individual sprites/04_demon_take_hit/demon_take_hit_4.png"
+dest_files=["res://.godot/imported/demon_take_hit_4.png-34d50222dae6812b285b46a42c006b40.ctex"]
 
 [params]
 

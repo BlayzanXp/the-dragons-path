@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://be1v3w4kwymq8"
-path="res://.godot/imported/floor_wood_corner_right.png-3454056a83e2d8489e7e7e1086976cc2.ctex"
+path="res://.godot/imported/floor_wood_corner_right.png-c6857005f43a8847c95a2b05aa716992.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Medieval_Castle_Asset_Pack/Medieval_Castle_Asset_Pack/Tiles/floor_wood_corner_right.png"
-dest_files=["res://.godot/imported/floor_wood_corner_right.png-3454056a83e2d8489e7e7e1086976cc2.ctex"]
+source_file="res://assets/MAPA/Medieval_Castle_Asset_Pack/Medieval_Castle_Asset_Pack/Tiles/floor_wood_corner_right.png"
+dest_files=["res://.godot/imported/floor_wood_corner_right.png-c6857005f43a8847c95a2b05aa716992.ctex"]
 
 [params]
 

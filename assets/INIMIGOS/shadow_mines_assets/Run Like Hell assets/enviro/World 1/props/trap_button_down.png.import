@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://wqdinklrk2oa"
-path="res://.godot/imported/trap_button_down.png-02546d241c338630792249b04475ba81.ctex"
+path="res://.godot/imported/trap_button_down.png-5a0d5fe33352d5db14d73f496243f7aa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/shadow_mines_assets/Run Like Hell assets/enviro/World 1/props/trap_button_down.png"
-dest_files=["res://.godot/imported/trap_button_down.png-02546d241c338630792249b04475ba81.ctex"]
+source_file="res://assets/INIMIGOS/shadow_mines_assets/Run Like Hell assets/enviro/World 1/props/trap_button_down.png"
+dest_files=["res://.godot/imported/trap_button_down.png-5a0d5fe33352d5db14d73f496243f7aa.ctex"]
 
 [params]
 

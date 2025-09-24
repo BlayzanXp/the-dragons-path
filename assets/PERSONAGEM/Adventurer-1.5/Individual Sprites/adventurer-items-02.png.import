@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dhujfcj4bcqyc"
-path="res://.godot/imported/adventurer-items-02.png-e945590a4d600bd413977082981359f9.ctex"
+path="res://.godot/imported/adventurer-items-02.png-49a3a1ca0c03ed40bc9a8ab10e2f967b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Adventurer-1.5/Individual Sprites/adventurer-items-02.png"
-dest_files=["res://.godot/imported/adventurer-items-02.png-e945590a4d600bd413977082981359f9.ctex"]
+source_file="res://assets/PERSONAGEM/Adventurer-1.5/Individual Sprites/adventurer-items-02.png"
+dest_files=["res://.godot/imported/adventurer-items-02.png-49a3a1ca0c03ed40bc9a8ab10e2f967b.ctex"]
 
 [params]
 

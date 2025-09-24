@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b735ag7dftqin"
-path="res://.godot/imported/adventurer-crouch-walk-05.png-d1f6dc4d978516918f80baa281fe132c.ctex"
+path="res://.godot/imported/adventurer-crouch-walk-05.png-64c8b61bf4a49a46c97ce4eb9fd1d240.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Adventurer-Hand-Combat/Individual Sprites/adventurer-crouch-walk-05.png"
-dest_files=["res://.godot/imported/adventurer-crouch-walk-05.png-d1f6dc4d978516918f80baa281fe132c.ctex"]
+source_file="res://assets/PERSONAGEM/Adventurer-Hand-Combat/Individual Sprites/adventurer-crouch-walk-05.png"
+dest_files=["res://.godot/imported/adventurer-crouch-walk-05.png-64c8b61bf4a49a46c97ce4eb9fd1d240.ctex"]
 
 [params]
 

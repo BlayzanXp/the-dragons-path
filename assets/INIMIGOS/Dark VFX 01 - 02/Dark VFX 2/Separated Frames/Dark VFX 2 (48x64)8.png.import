@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://5dm4it6fo541"
-path="res://.godot/imported/Dark VFX 2 (48x64)8.png-c06892624a2348e42c31a009de431344.ctex"
+path="res://.godot/imported/Dark VFX 2 (48x64)8.png-ca5907b9de438453d2e73e07c41297fa.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Dark VFX 01 - 02/Dark VFX 2/Separated Frames/Dark VFX 2 (48x64)8.png"
-dest_files=["res://.godot/imported/Dark VFX 2 (48x64)8.png-c06892624a2348e42c31a009de431344.ctex"]
+source_file="res://assets/INIMIGOS/Dark VFX 01 - 02/Dark VFX 2/Separated Frames/Dark VFX 2 (48x64)8.png"
+dest_files=["res://.godot/imported/Dark VFX 2 (48x64)8.png-ca5907b9de438453d2e73e07c41297fa.ctex"]
 
 [params]
 

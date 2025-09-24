@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://m26k771ssmch"
-path="res://.godot/imported/08_Cloud.png-bd60001f6df9617dd3b70e5c25f30c48.ctex"
+path="res://.godot/imported/08_Cloud.png-6357def3d896de6144e0eae5b8ed0f6f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Parallax Desert Background (Seamless)/Parallax Desert Background (Seamless)/Parallax Desert Background (Seamless)/08_Cloud.png"
-dest_files=["res://.godot/imported/08_Cloud.png-bd60001f6df9617dd3b70e5c25f30c48.ctex"]
+source_file="res://assets/MAPA/Parallax Desert Background (Seamless)/Parallax Desert Background (Seamless)/Parallax Desert Background (Seamless)/08_Cloud.png"
+dest_files=["res://.godot/imported/08_Cloud.png-6357def3d896de6144e0eae5b8ed0f6f.ctex"]
 
 [params]
 

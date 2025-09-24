@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bsxrw8hkjaj24"
-path="res://.godot/imported/elevator_doors_left.png-335c40600b729fda97fb2d8e5304932f.ctex"
+path="res://.godot/imported/elevator_doors_left.png-6bb86dd0d9c711f7bc70b8cc7513fae1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/shadow_mines_assets/Run Like Hell assets/enviro/World 1/elevator/elevator_doors_left.png"
-dest_files=["res://.godot/imported/elevator_doors_left.png-335c40600b729fda97fb2d8e5304932f.ctex"]
+source_file="res://assets/INIMIGOS/shadow_mines_assets/Run Like Hell assets/enviro/World 1/elevator/elevator_doors_left.png"
+dest_files=["res://.godot/imported/elevator_doors_left.png-6bb86dd0d9c711f7bc70b8cc7513fae1.ctex"]
 
 [params]
 

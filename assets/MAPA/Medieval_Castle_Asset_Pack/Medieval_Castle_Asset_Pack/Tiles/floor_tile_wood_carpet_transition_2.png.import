@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dctg53b4mxwgm"
-path="res://.godot/imported/floor_tile_wood_carpet_transition_2.png-9eec44ebcd00bb376468a7524b7fdd9b.ctex"
+path="res://.godot/imported/floor_tile_wood_carpet_transition_2.png-8ed2e1a8ecd8255f6f7a931073bd278f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Medieval_Castle_Asset_Pack/Medieval_Castle_Asset_Pack/Tiles/floor_tile_wood_carpet_transition_2.png"
-dest_files=["res://.godot/imported/floor_tile_wood_carpet_transition_2.png-9eec44ebcd00bb376468a7524b7fdd9b.ctex"]
+source_file="res://assets/MAPA/Medieval_Castle_Asset_Pack/Medieval_Castle_Asset_Pack/Tiles/floor_tile_wood_carpet_transition_2.png"
+dest_files=["res://.godot/imported/floor_tile_wood_carpet_transition_2.png-8ed2e1a8ecd8255f6f7a931073bd278f.ctex"]
 
 [params]
 

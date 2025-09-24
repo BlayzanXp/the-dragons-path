@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://sbeaj2u7wxee"
-path="res://.godot/imported/adventurer-drop-kick-00.png-aad890765baec58b70de2277458d4521.ctex"
+path="res://.godot/imported/adventurer-drop-kick-00.png-d61c650fb903e31bf22268aa55386892.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Adventurer-Hand-Combat/Individual Sprites/adventurer-drop-kick-00.png"
-dest_files=["res://.godot/imported/adventurer-drop-kick-00.png-aad890765baec58b70de2277458d4521.ctex"]
+source_file="res://assets/PERSONAGEM/Adventurer-Hand-Combat/Individual Sprites/adventurer-drop-kick-00.png"
+dest_files=["res://.godot/imported/adventurer-drop-kick-00.png-d61c650fb903e31bf22268aa55386892.ctex"]
 
 [params]
 

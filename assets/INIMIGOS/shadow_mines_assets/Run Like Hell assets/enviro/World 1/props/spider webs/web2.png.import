@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://xbwbd4nb222a"
-path="res://.godot/imported/web2.png-010e1156aa2e3bb1ce7d9cd30b0f5138.ctex"
+path="res://.godot/imported/web2.png-55e238ab7b600b4e5df61226fec30c2d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/shadow_mines_assets/Run Like Hell assets/enviro/World 1/props/spider webs/web2.png"
-dest_files=["res://.godot/imported/web2.png-010e1156aa2e3bb1ce7d9cd30b0f5138.ctex"]
+source_file="res://assets/INIMIGOS/shadow_mines_assets/Run Like Hell assets/enviro/World 1/props/spider webs/web2.png"
+dest_files=["res://.godot/imported/web2.png-55e238ab7b600b4e5df61226fec30c2d.ctex"]
 
 [params]
 

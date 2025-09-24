@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cn5uff004wiag"
-path="res://.godot/imported/adventurer-wall-run-00.png-44cbb96b7bafc1732c862ead5d2dbc95.ctex"
+path="res://.godot/imported/adventurer-wall-run-00.png-78cf143d02d0e30348b3f6dd1c1242b8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Adventurer-Hand-Combat/Individual Sprites/adventurer-wall-run-00.png"
-dest_files=["res://.godot/imported/adventurer-wall-run-00.png-44cbb96b7bafc1732c862ead5d2dbc95.ctex"]
+source_file="res://assets/PERSONAGEM/Adventurer-Hand-Combat/Individual Sprites/adventurer-wall-run-00.png"
+dest_files=["res://.godot/imported/adventurer-wall-run-00.png-78cf143d02d0e30348b3f6dd1c1242b8.ctex"]
 
 [params]
 

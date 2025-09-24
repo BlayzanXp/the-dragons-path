@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cthmtqwxw4vlv"
-path="res://.godot/imported/podkladka.png-1f2e882a764a12d78f8e5cfba32d29af.ctex"
+path="res://.godot/imported/podkladka.png-562ee6d12fe57845e204fb28bba40102.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/shadow_mines_assets/Run Like Hell assets/enviro/World 1/cave walls and elements/podkladka.png"
-dest_files=["res://.godot/imported/podkladka.png-1f2e882a764a12d78f8e5cfba32d29af.ctex"]
+source_file="res://assets/INIMIGOS/shadow_mines_assets/Run Like Hell assets/enviro/World 1/cave walls and elements/podkladka.png"
+dest_files=["res://.godot/imported/podkladka.png-562ee6d12fe57845e204fb28bba40102.ctex"]
 
 [params]
 

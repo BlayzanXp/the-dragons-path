@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dbtucshveyjpx"
-path="res://.godot/imported/platshroom_0.png-bd23b0b75de92749c6ce7b6c7d5c583c.ctex"
+path="res://.godot/imported/platshroom_0.png-4097ec206874135ff44175084f3c150a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/shadow_mines_assets/Run Like Hell assets/enviro/World 2/muschrooms/platshroom_0.png"
-dest_files=["res://.godot/imported/platshroom_0.png-bd23b0b75de92749c6ce7b6c7d5c583c.ctex"]
+source_file="res://assets/INIMIGOS/shadow_mines_assets/Run Like Hell assets/enviro/World 2/muschrooms/platshroom_0.png"
+dest_files=["res://.godot/imported/platshroom_0.png-4097ec206874135ff44175084f3c150a.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://do616liw173wt"
-path="res://.godot/imported/lion_column_5.png-69a5a6a1fde8cd1ee4f6e9a3eebe6b31.ctex"
+path="res://.godot/imported/lion_column_5.png-3b20281f0ab6d5ff09b5fef3292a9434.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Medieval_Castle_Asset_Pack/Medieval_Castle_Asset_Pack/Tiles/lion_column_5.png"
-dest_files=["res://.godot/imported/lion_column_5.png-69a5a6a1fde8cd1ee4f6e9a3eebe6b31.ctex"]
+source_file="res://assets/MAPA/Medieval_Castle_Asset_Pack/Medieval_Castle_Asset_Pack/Tiles/lion_column_5.png"
+dest_files=["res://.godot/imported/lion_column_5.png-3b20281f0ab6d5ff09b5fef3292a9434.ctex"]
 
 [params]
 

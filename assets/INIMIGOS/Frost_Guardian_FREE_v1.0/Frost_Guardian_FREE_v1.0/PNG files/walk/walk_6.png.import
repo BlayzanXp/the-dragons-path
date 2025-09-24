@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d2vvivtujp6sl"
-path="res://.godot/imported/walk_6.png-61b22653c24dd8208e5225e0de5edba0.ctex"
+path="res://.godot/imported/walk_6.png-aea7c203de9eee04645291c7d3a3baeb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Frost_Guardian_FREE_v1.0/Frost_Guardian_FREE_v1.0/PNG files/walk/walk_6.png"
-dest_files=["res://.godot/imported/walk_6.png-61b22653c24dd8208e5225e0de5edba0.ctex"]
+source_file="res://assets/INIMIGOS/Frost_Guardian_FREE_v1.0/Frost_Guardian_FREE_v1.0/PNG files/walk/walk_6.png"
+dest_files=["res://.godot/imported/walk_6.png-aea7c203de9eee04645291c7d3a3baeb.ctex"]
 
 [params]
 

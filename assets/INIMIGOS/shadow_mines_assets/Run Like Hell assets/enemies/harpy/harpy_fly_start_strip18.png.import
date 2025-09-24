@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://b6rqua7dngoqp"
-path="res://.godot/imported/harpy_fly_start_strip18.png-5087e638e1bf960230a77415db5eaadd.ctex"
+path="res://.godot/imported/harpy_fly_start_strip18.png-f66ddae24f81a44eb101663e2bb67fe1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/shadow_mines_assets/Run Like Hell assets/enemies/harpy/harpy_fly_start_strip18.png"
-dest_files=["res://.godot/imported/harpy_fly_start_strip18.png-5087e638e1bf960230a77415db5eaadd.ctex"]
+source_file="res://assets/INIMIGOS/shadow_mines_assets/Run Like Hell assets/enemies/harpy/harpy_fly_start_strip18.png"
+dest_files=["res://.godot/imported/harpy_fly_start_strip18.png-f66ddae24f81a44eb101663e2bb67fe1.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d4iint1wdk050"
-path="res://.godot/imported/summon.png-c3ee18a5f4bbbdb230e6ed079c6d89d2.ctex"
+path="res://.godot/imported/summon.png-0176c2edd33bce2fae13a6959b4b2a64.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Undead executioner/Undead executioner puppet/png/summon.png"
-dest_files=["res://.godot/imported/summon.png-c3ee18a5f4bbbdb230e6ed079c6d89d2.ctex"]
+source_file="res://assets/INIMIGOS/Undead executioner/Undead executioner puppet/png/summon.png"
+dest_files=["res://.godot/imported/summon.png-0176c2edd33bce2fae13a6959b4b2a64.ctex"]
 
 [params]
 

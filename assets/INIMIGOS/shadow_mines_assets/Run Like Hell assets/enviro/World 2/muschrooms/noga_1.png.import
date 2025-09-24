@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://di67j5cg44anl"
-path="res://.godot/imported/noga_1.png-7ea88a772685b03884ea57783212428a.ctex"
+path="res://.godot/imported/noga_1.png-d31c9c8e1b4d126712d0d0d06295818e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/shadow_mines_assets/Run Like Hell assets/enviro/World 2/muschrooms/noga_1.png"
-dest_files=["res://.godot/imported/noga_1.png-7ea88a772685b03884ea57783212428a.ctex"]
+source_file="res://assets/INIMIGOS/shadow_mines_assets/Run Like Hell assets/enviro/World 2/muschrooms/noga_1.png"
+dest_files=["res://.godot/imported/noga_1.png-d31c9c8e1b4d126712d0d0d06295818e.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dwesxvg0qh7c2"
-path="res://.godot/imported/small_0.png-a27e49d7e644aeb41b3c837aef3786c3.ctex"
+path="res://.godot/imported/small_0.png-2ed6a1330b60c409ad84b0fc46bb3745.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/shadow_mines_assets/Run Like Hell assets/enviro/World 2/shrooms/small_0.png"
-dest_files=["res://.godot/imported/small_0.png-a27e49d7e644aeb41b3c837aef3786c3.ctex"]
+source_file="res://assets/INIMIGOS/shadow_mines_assets/Run Like Hell assets/enviro/World 2/shrooms/small_0.png"
+dest_files=["res://.godot/imported/small_0.png-2ed6a1330b60c409ad84b0fc46bb3745.ctex"]
 
 [params]
 

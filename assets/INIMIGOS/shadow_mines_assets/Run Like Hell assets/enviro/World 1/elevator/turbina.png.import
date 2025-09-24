@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://tgctuyere43l"
-path="res://.godot/imported/turbina.png-8386a385d6fb9a53e8310244ae333e66.ctex"
+path="res://.godot/imported/turbina.png-f47f21bce1f0fef02515d31331bcf70e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/shadow_mines_assets/Run Like Hell assets/enviro/World 1/elevator/turbina.png"
-dest_files=["res://.godot/imported/turbina.png-8386a385d6fb9a53e8310244ae333e66.ctex"]
+source_file="res://assets/INIMIGOS/shadow_mines_assets/Run Like Hell assets/enviro/World 1/elevator/turbina.png"
+dest_files=["res://.godot/imported/turbina.png-f47f21bce1f0fef02515d31331bcf70e.ctex"]
 
 [params]
 

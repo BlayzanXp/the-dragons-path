@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dcw8atwmvywy4"
-path="res://.godot/imported/BG_3_alt.png-4713354abf28771b10d89bc0b3d90b2e.ctex"
+path="res://.godot/imported/BG_3_alt.png-03aa81ba2fd9bae4b48a823c5dcf4dad.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/forest-nature-fantasy-tileset-free/Fantasy Swamp Forest/Free/BG_3/BG_3_alt.png"
-dest_files=["res://.godot/imported/BG_3_alt.png-4713354abf28771b10d89bc0b3d90b2e.ctex"]
+source_file="res://assets/MAPA/forest-nature-fantasy-tileset-free/Fantasy Swamp Forest/Free/BG_3/BG_3_alt.png"
+dest_files=["res://.godot/imported/BG_3_alt.png-03aa81ba2fd9bae4b48a823c5dcf4dad.ctex"]
 
 [params]
 

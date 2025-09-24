@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cc4c8qo4mflkr"
-path="res://.godot/imported/2ndplan11.png-139dde1678c13979aa23b2dc7f3f4669.ctex"
+path="res://.godot/imported/2ndplan11.png-95f931698eaab6955f1b7079fe336d0f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/shadow_mines_assets/Run Like Hell assets/enviro/World 2/2nd plan/2ndplan11.png"
-dest_files=["res://.godot/imported/2ndplan11.png-139dde1678c13979aa23b2dc7f3f4669.ctex"]
+source_file="res://assets/INIMIGOS/shadow_mines_assets/Run Like Hell assets/enviro/World 2/2nd plan/2ndplan11.png"
+dest_files=["res://.godot/imported/2ndplan11.png-95f931698eaab6955f1b7079fe336d0f.ctex"]
 
 [params]
 

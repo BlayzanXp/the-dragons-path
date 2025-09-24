@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bd4f1fvl5fcr1"
-path="res://.godot/imported/ropes.png-8c1b0a7cb84cfbc846e2514567300351.ctex"
+path="res://.godot/imported/ropes.png-6e4e56cd4ccd475d96da31ea4b2c189a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/shadow_mines_assets/Run Like Hell assets/enviro/World 1/elevator/ropes.png"
-dest_files=["res://.godot/imported/ropes.png-8c1b0a7cb84cfbc846e2514567300351.ctex"]
+source_file="res://assets/INIMIGOS/shadow_mines_assets/Run Like Hell assets/enviro/World 1/elevator/ropes.png"
+dest_files=["res://.godot/imported/ropes.png-6e4e56cd4ccd475d96da31ea4b2c189a.ctex"]
 
 [params]
 

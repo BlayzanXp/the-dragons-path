@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ctjdgafg0wbjw"
-path="res://.godot/imported/gholum_attack_success_0_strip47.png-bb942d241291d1b07cd3ba8aff474030.ctex"
+path="res://.godot/imported/gholum_attack_success_0_strip47.png-603117f95f3f48af5ae31dd4036266bd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/shadow_mines_assets/Run Like Hell assets/enemies/gholum/gholum_attack_success_0_strip47.png"
-dest_files=["res://.godot/imported/gholum_attack_success_0_strip47.png-bb942d241291d1b07cd3ba8aff474030.ctex"]
+source_file="res://assets/INIMIGOS/shadow_mines_assets/Run Like Hell assets/enemies/gholum/gholum_attack_success_0_strip47.png"
+dest_files=["res://.godot/imported/gholum_attack_success_0_strip47.png-603117f95f3f48af5ae31dd4036266bd.ctex"]
 
 [params]
 

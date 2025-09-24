@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bue42w0wqpfvi"
-path="res://.godot/imported/01_Sky.png-12b06af86d1dce235d9c4f1e162139b3.ctex"
+path="res://.godot/imported/01_Sky.png-5457b857622a3cce7c6c8ee86c08234c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Parallax Desert Background (Seamless)/Parallax Desert Background (Seamless)/Parallax Desert Background (Seamless)/01_Sky.png"
-dest_files=["res://.godot/imported/01_Sky.png-12b06af86d1dce235d9c4f1e162139b3.ctex"]
+source_file="res://assets/MAPA/Parallax Desert Background (Seamless)/Parallax Desert Background (Seamless)/Parallax Desert Background (Seamless)/01_Sky.png"
+dest_files=["res://.godot/imported/01_Sky.png-5457b857622a3cce7c6c8ee86c08234c.ctex"]
 
 [params]
 

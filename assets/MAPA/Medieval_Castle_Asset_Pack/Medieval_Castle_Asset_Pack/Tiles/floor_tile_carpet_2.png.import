@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://jf78nn7u4tbd"
-path="res://.godot/imported/floor_tile_carpet_2.png-4c1773b2c9554cc8dadfcd26ab9b90a8.ctex"
+path="res://.godot/imported/floor_tile_carpet_2.png-c8db3d0378d6e11a11e9a97575c38f86.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Medieval_Castle_Asset_Pack/Medieval_Castle_Asset_Pack/Tiles/floor_tile_carpet_2.png"
-dest_files=["res://.godot/imported/floor_tile_carpet_2.png-4c1773b2c9554cc8dadfcd26ab9b90a8.ctex"]
+source_file="res://assets/MAPA/Medieval_Castle_Asset_Pack/Medieval_Castle_Asset_Pack/Tiles/floor_tile_carpet_2.png"
+dest_files=["res://.godot/imported/floor_tile_carpet_2.png-c8db3d0378d6e11a11e9a97575c38f86.ctex"]
 
 [params]
 

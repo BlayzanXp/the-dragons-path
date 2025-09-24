@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bkpb584sl7wex"
-path="res://.godot/imported/gruby_run_strip24.png-1faa202306546fd2dedb34fad732d61b.ctex"
+path="res://.godot/imported/gruby_run_strip24.png-cbc90df44b1e2d10350446c8eb5f5b6b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/shadow_mines_assets/Run Like Hell assets/enemies/gruby/gruby_run_strip24.png"
-dest_files=["res://.godot/imported/gruby_run_strip24.png-1faa202306546fd2dedb34fad732d61b.ctex"]
+source_file="res://assets/INIMIGOS/shadow_mines_assets/Run Like Hell assets/enemies/gruby/gruby_run_strip24.png"
+dest_files=["res://.godot/imported/gruby_run_strip24.png-cbc90df44b1e2d10350446c8eb5f5b6b.ctex"]
 
 [params]
 

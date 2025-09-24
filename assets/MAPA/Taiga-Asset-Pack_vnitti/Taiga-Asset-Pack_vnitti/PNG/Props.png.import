@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dasc24vh5w6oi"
-path="res://.godot/imported/Props.png-605f7bcb04af0d57d2878a5d808d2cd2.ctex"
+path="res://.godot/imported/Props.png-c0f684eacc24655e5fdfe2e9ac2b608d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Taiga-Asset-Pack_vnitti/Taiga-Asset-Pack_vnitti/PNG/Props.png"
-dest_files=["res://.godot/imported/Props.png-605f7bcb04af0d57d2878a5d808d2cd2.ctex"]
+source_file="res://assets/MAPA/Taiga-Asset-Pack_vnitti/Taiga-Asset-Pack_vnitti/PNG/Props.png"
+dest_files=["res://.godot/imported/Props.png-c0f684eacc24655e5fdfe2e9ac2b608d.ctex"]
 
 [params]
 

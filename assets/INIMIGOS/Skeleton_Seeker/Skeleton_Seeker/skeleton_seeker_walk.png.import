@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dpgyrg8psiej6"
-path="res://.godot/imported/skeleton_seeker_walk.png-ad3be56576a1cd70e42672a84d694947.ctex"
+path="res://.godot/imported/skeleton_seeker_walk.png-2207e45f83dada5d67715c50f968dd9d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Skeleton_Seeker/Skeleton_Seeker/skeleton_seeker_walk.png"
-dest_files=["res://.godot/imported/skeleton_seeker_walk.png-ad3be56576a1cd70e42672a84d694947.ctex"]
+source_file="res://assets/INIMIGOS/Skeleton_Seeker/Skeleton_Seeker/skeleton_seeker_walk.png"
+dest_files=["res://.godot/imported/skeleton_seeker_walk.png-2207e45f83dada5d67715c50f968dd9d.ctex"]
 
 [params]
 

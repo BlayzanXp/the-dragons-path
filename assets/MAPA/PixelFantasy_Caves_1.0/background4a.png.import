@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cbr72m1v6y4q1"
-path="res://.godot/imported/background4a.png-6f3953437bd2d1fb60a7c52a4e5eb175.ctex"
+path="res://.godot/imported/background4a.png-cff5232382d55ac4f9a52a0f23137876.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/PixelFantasy_Caves_1.0/background4a.png"
-dest_files=["res://.godot/imported/background4a.png-6f3953437bd2d1fb60a7c52a4e5eb175.ctex"]
+source_file="res://assets/MAPA/PixelFantasy_Caves_1.0/background4a.png"
+dest_files=["res://.godot/imported/background4a.png-cff5232382d55ac4f9a52a0f23137876.ctex"]
 
 [params]
 

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://xtk1dt3b76xc"
-path="res://.godot/imported/voldo_attack_success_strip29_0.png-e90a581fcbc77eff44f615e180671433.ctex"
+path="res://.godot/imported/voldo_attack_success_strip29_0.png-036e832d200e3162d8fd70deb1389a50.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/shadow_mines_assets/Run Like Hell assets/enemies/voldo/voldo_attack_success_strip29_0.png"
-dest_files=["res://.godot/imported/voldo_attack_success_strip29_0.png-e90a581fcbc77eff44f615e180671433.ctex"]
+source_file="res://assets/INIMIGOS/shadow_mines_assets/Run Like Hell assets/enemies/voldo/voldo_attack_success_strip29_0.png"
+dest_files=["res://.godot/imported/voldo_attack_success_strip29_0.png-036e832d200e3162d8fd70deb1389a50.ctex"]
 
 [params]
 

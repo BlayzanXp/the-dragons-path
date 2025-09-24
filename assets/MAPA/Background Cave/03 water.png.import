@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bqaudlsbq6mee"
-path="res://.godot/imported/03 water.png-bd09ee9c7da774187239cc02bd5a764f.ctex"
+path="res://.godot/imported/03 water.png-729f6989cf893c8a65957972d01ba657.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Background Cave/03 water.png"
-dest_files=["res://.godot/imported/03 water.png-bd09ee9c7da774187239cc02bd5a764f.ctex"]
+source_file="res://assets/MAPA/Background Cave/03 water.png"
+dest_files=["res://.godot/imported/03 water.png-729f6989cf893c8a65957972d01ba657.ctex"]
 
 [params]
 

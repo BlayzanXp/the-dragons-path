@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://w0gpdh5iy3k1"
-path="res://.godot/imported/sign_warning.png-f38d3f606d186339e1c02533dab2ad0e.ctex"
+path="res://.godot/imported/sign_warning.png-dfd5ee578dee1443fd80e2b20da63357.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/shadow_mines_assets/Run Like Hell assets/enviro/World 1/props/sign_warning.png"
-dest_files=["res://.godot/imported/sign_warning.png-f38d3f606d186339e1c02533dab2ad0e.ctex"]
+source_file="res://assets/INIMIGOS/shadow_mines_assets/Run Like Hell assets/enviro/World 1/props/sign_warning.png"
+dest_files=["res://.godot/imported/sign_warning.png-dfd5ee578dee1443fd80e2b20da63357.ctex"]
 
 [params]
 

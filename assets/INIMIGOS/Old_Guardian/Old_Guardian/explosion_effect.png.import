@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c4xixmftk4vgn"
-path="res://.godot/imported/explosion_effect.png-9d28c24976a1abe93c5e0968417410e9.ctex"
+path="res://.godot/imported/explosion_effect.png-a26571af82a6a50c483876054fcdf14a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Guardian/Old_Guardian/explosion_effect.png"
-dest_files=["res://.godot/imported/explosion_effect.png-9d28c24976a1abe93c5e0968417410e9.ctex"]
+source_file="res://assets/INIMIGOS/Old_Guardian/Old_Guardian/explosion_effect.png"
+dest_files=["res://.godot/imported/explosion_effect.png-a26571af82a6a50c483876054fcdf14a.ctex"]
 
 [params]
 

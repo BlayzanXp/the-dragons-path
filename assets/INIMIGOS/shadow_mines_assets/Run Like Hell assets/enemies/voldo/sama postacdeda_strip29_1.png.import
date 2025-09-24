@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://du728hps312h0"
-path="res://.godot/imported/sama postacdeda_strip29_1.png-0ace8bbfe6ebacd06867a90788d97cbf.ctex"
+path="res://.godot/imported/sama postacdeda_strip29_1.png-919200ed9971fc4214e9747b3efc238e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/shadow_mines_assets/Run Like Hell assets/enemies/voldo/sama postacdeda_strip29_1.png"
-dest_files=["res://.godot/imported/sama postacdeda_strip29_1.png-0ace8bbfe6ebacd06867a90788d97cbf.ctex"]
+source_file="res://assets/INIMIGOS/shadow_mines_assets/Run Like Hell assets/enemies/voldo/sama postacdeda_strip29_1.png"
+dest_files=["res://.godot/imported/sama postacdeda_strip29_1.png-919200ed9971fc4214e9747b3efc238e.ctex"]
 
 [params]
 

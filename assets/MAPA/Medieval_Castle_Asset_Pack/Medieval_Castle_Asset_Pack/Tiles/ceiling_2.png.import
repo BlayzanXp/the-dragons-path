@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bjajt4oigwqio"
-path="res://.godot/imported/ceiling_2.png-1d0a0020d4d23b0ab517a86e10b37481.ctex"
+path="res://.godot/imported/ceiling_2.png-98bd216b067a9d5cc810329e53191f0d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Medieval_Castle_Asset_Pack/Medieval_Castle_Asset_Pack/Tiles/ceiling_2.png"
-dest_files=["res://.godot/imported/ceiling_2.png-1d0a0020d4d23b0ab517a86e10b37481.ctex"]
+source_file="res://assets/MAPA/Medieval_Castle_Asset_Pack/Medieval_Castle_Asset_Pack/Tiles/ceiling_2.png"
+dest_files=["res://.godot/imported/ceiling_2.png-98bd216b067a9d5cc810329e53191f0d.ctex"]
 
 [params]
 

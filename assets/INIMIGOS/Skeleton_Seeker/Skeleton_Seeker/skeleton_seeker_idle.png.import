@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dl8nf1llrwbdh"
-path="res://.godot/imported/skeleton_seeker_idle.png-a166410639a1c6ebc5f82f1a4d3f69d5.ctex"
+path="res://.godot/imported/skeleton_seeker_idle.png-a8b50e5e55b4ee38d8226c3793dff359.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Skeleton_Seeker/Skeleton_Seeker/skeleton_seeker_idle.png"
-dest_files=["res://.godot/imported/skeleton_seeker_idle.png-a166410639a1c6ebc5f82f1a4d3f69d5.ctex"]
+source_file="res://assets/INIMIGOS/Skeleton_Seeker/Skeleton_Seeker/skeleton_seeker_idle.png"
+dest_files=["res://.godot/imported/skeleton_seeker_idle.png-a8b50e5e55b4ee38d8226c3793dff359.ctex"]
 
 [params]
 

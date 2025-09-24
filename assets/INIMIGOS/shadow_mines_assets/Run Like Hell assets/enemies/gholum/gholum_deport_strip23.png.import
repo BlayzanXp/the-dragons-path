@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dw6lxesijjxhi"
-path="res://.godot/imported/gholum_deport_strip23.png-cc644529b34fd55b53149f717b77fe75.ctex"
+path="res://.godot/imported/gholum_deport_strip23.png-2b39a1ed54e9cae2a624ed5bde3088e6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/shadow_mines_assets/Run Like Hell assets/enemies/gholum/gholum_deport_strip23.png"
-dest_files=["res://.godot/imported/gholum_deport_strip23.png-cc644529b34fd55b53149f717b77fe75.ctex"]
+source_file="res://assets/INIMIGOS/shadow_mines_assets/Run Like Hell assets/enemies/gholum/gholum_deport_strip23.png"
+dest_files=["res://.godot/imported/gholum_deport_strip23.png-2b39a1ed54e9cae2a624ed5bde3088e6.ctex"]
 
 [params]
 

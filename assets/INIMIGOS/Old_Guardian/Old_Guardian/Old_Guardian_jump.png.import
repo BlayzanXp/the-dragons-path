@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://7hmwprta3rxq"
-path="res://.godot/imported/Old_Guardian_jump.png-1437a84a57901858a79eaab425966944.ctex"
+path="res://.godot/imported/Old_Guardian_jump.png-251cd19fe718297d9546b3d63e04a15c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Guardian/Old_Guardian/Old_Guardian_jump.png"
-dest_files=["res://.godot/imported/Old_Guardian_jump.png-1437a84a57901858a79eaab425966944.ctex"]
+source_file="res://assets/INIMIGOS/Old_Guardian/Old_Guardian/Old_Guardian_jump.png"
+dest_files=["res://.godot/imported/Old_Guardian_jump.png-251cd19fe718297d9546b3d63e04a15c.ctex"]
 
 [params]
 

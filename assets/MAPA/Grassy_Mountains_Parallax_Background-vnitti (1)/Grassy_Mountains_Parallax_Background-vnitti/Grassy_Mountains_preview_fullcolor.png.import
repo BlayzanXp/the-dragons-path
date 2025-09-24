@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bhmk0upm5wq0k"
-path="res://.godot/imported/Grassy_Mountains_preview_fullcolor.png-b7a22daa4091c74aca2e4a730e9aed8e.ctex"
+path="res://.godot/imported/Grassy_Mountains_preview_fullcolor.png-a3291823e68ce28f8f7904caebabae34.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Grassy_Mountains_Parallax_Background-vnitti (1)/Grassy_Mountains_Parallax_Background-vnitti/Grassy_Mountains_preview_fullcolor.png"
-dest_files=["res://.godot/imported/Grassy_Mountains_preview_fullcolor.png-b7a22daa4091c74aca2e4a730e9aed8e.ctex"]
+source_file="res://assets/MAPA/Grassy_Mountains_Parallax_Background-vnitti (1)/Grassy_Mountains_Parallax_Background-vnitti/Grassy_Mountains_preview_fullcolor.png"
+dest_files=["res://.godot/imported/Grassy_Mountains_preview_fullcolor.png-a3291823e68ce28f8f7904caebabae34.ctex"]
 
 [params]
 

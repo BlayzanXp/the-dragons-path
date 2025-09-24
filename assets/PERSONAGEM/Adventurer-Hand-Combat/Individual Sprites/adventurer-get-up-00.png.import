@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cmmjb2i4vp45j"
-path="res://.godot/imported/adventurer-get-up-00.png-e55c5d5a1f4381b8e9cf2909461c68db.ctex"
+path="res://.godot/imported/adventurer-get-up-00.png-21487deabf86c64e56660d43c8d770c5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Adventurer-Hand-Combat/Individual Sprites/adventurer-get-up-00.png"
-dest_files=["res://.godot/imported/adventurer-get-up-00.png-e55c5d5a1f4381b8e9cf2909461c68db.ctex"]
+source_file="res://assets/PERSONAGEM/Adventurer-Hand-Combat/Individual Sprites/adventurer-get-up-00.png"
+dest_files=["res://.godot/imported/adventurer-get-up-00.png-21487deabf86c64e56660d43c8d770c5.ctex"]
 
 [params]
 

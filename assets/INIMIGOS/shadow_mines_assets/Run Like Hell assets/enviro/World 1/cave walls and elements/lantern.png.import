@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dpicpuqvl3hmb"
-path="res://.godot/imported/lantern.png-a5a1cfd934d52abf00084054924a1c59.ctex"
+path="res://.godot/imported/lantern.png-4ab7dc67e3284fb0e139d3fd0e28e22b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/shadow_mines_assets/Run Like Hell assets/enviro/World 1/cave walls and elements/lantern.png"
-dest_files=["res://.godot/imported/lantern.png-a5a1cfd934d52abf00084054924a1c59.ctex"]
+source_file="res://assets/INIMIGOS/shadow_mines_assets/Run Like Hell assets/enviro/World 1/cave walls and elements/lantern.png"
+dest_files=["res://.godot/imported/lantern.png-4ab7dc67e3284fb0e139d3fd0e28e22b.ctex"]
 
 [params]
 

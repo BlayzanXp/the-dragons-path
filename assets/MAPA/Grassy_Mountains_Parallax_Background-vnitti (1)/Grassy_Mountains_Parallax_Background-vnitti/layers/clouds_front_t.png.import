@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://d4aer82a5pe6g"
-path="res://.godot/imported/clouds_front_t.png-63159f579ee6ff15fb925b8ebfa1775e.ctex"
+path="res://.godot/imported/clouds_front_t.png-2630d7b02306c9516754b0329a538b88.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Grassy_Mountains_Parallax_Background-vnitti (1)/Grassy_Mountains_Parallax_Background-vnitti/layers/clouds_front_t.png"
-dest_files=["res://.godot/imported/clouds_front_t.png-63159f579ee6ff15fb925b8ebfa1775e.ctex"]
+source_file="res://assets/MAPA/Grassy_Mountains_Parallax_Background-vnitti (1)/Grassy_Mountains_Parallax_Background-vnitti/layers/clouds_front_t.png"
+dest_files=["res://.godot/imported/clouds_front_t.png-2630d7b02306c9516754b0329a538b88.ctex"]
 
 [params]
 

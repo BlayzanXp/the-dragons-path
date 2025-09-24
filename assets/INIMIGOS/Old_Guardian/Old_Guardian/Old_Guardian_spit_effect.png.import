@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://r4ng7kefjr3e"
-path="res://.godot/imported/Old_Guardian_spit_effect.png-d0a7bc2c97fb4c3c979a078746a9ee7a.ctex"
+path="res://.godot/imported/Old_Guardian_spit_effect.png-831ab98ab753b72ecb9a0eede582d45d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Guardian/Old_Guardian/Old_Guardian_spit_effect.png"
-dest_files=["res://.godot/imported/Old_Guardian_spit_effect.png-d0a7bc2c97fb4c3c979a078746a9ee7a.ctex"]
+source_file="res://assets/INIMIGOS/Old_Guardian/Old_Guardian/Old_Guardian_spit_effect.png"
+dest_files=["res://.godot/imported/Old_Guardian_spit_effect.png-831ab98ab753b72ecb9a0eede582d45d.ctex"]
 
 [params]
 

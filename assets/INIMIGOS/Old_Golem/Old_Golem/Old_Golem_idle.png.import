@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ejr76nqgkem8"
-path="res://.godot/imported/Old_Golem_idle.png-2e6827bb08c0d504f005c507d318fdbe.ctex"
+path="res://.godot/imported/Old_Golem_idle.png-3afa97c48328cb4edf5a1efef5a4e5f6.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Golem/Old_Golem/Old_Golem_idle.png"
-dest_files=["res://.godot/imported/Old_Golem_idle.png-2e6827bb08c0d504f005c507d318fdbe.ctex"]
+source_file="res://assets/INIMIGOS/Old_Golem/Old_Golem/Old_Golem_idle.png"
+dest_files=["res://.godot/imported/Old_Golem_idle.png-3afa97c48328cb4edf5a1efef5a4e5f6.ctex"]
 
 [params]
 

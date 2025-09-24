@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c1hygk46vtqqc"
-path="res://.godot/imported/adventurer-stand-02.png-ca6bffd310adec6ca044552dea28f153.ctex"
+path="res://.godot/imported/adventurer-stand-02.png-bdc48d96b7a5a1ceae93573b2fbd8717.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Adventurer-1.5/Individual Sprites/adventurer-stand-02.png"
-dest_files=["res://.godot/imported/adventurer-stand-02.png-ca6bffd310adec6ca044552dea28f153.ctex"]
+source_file="res://assets/PERSONAGEM/Adventurer-1.5/Individual Sprites/adventurer-stand-02.png"
+dest_files=["res://.godot/imported/adventurer-stand-02.png-bdc48d96b7a5a1ceae93573b2fbd8717.ctex"]
 
 [params]
 

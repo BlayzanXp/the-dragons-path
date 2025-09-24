@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bcdcup6fblqfd"
-path="res://.godot/imported/adventurer-knock-dwn-04.png-f1d6530b8ba262d06967fa76d36e5b98.ctex"
+path="res://.godot/imported/adventurer-knock-dwn-04.png-42db5dbc2a698a32de8138aed6373809.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Adventurer-Hand-Combat/Individual Sprites/adventurer-knock-dwn-04.png"
-dest_files=["res://.godot/imported/adventurer-knock-dwn-04.png-f1d6530b8ba262d06967fa76d36e5b98.ctex"]
+source_file="res://assets/PERSONAGEM/Adventurer-Hand-Combat/Individual Sprites/adventurer-knock-dwn-04.png"
+dest_files=["res://.godot/imported/adventurer-knock-dwn-04.png-42db5dbc2a698a32de8138aed6373809.ctex"]
 
 [params]
 

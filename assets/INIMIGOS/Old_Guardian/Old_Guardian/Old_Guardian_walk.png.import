@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dd5yhdh0jn6gd"
-path="res://.godot/imported/Old_Guardian_walk.png-65b76be780cdd4cbfe625561e7c38b03.ctex"
+path="res://.godot/imported/Old_Guardian_walk.png-5574a1dc8265e83d58be09d35c5a5051.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Old_Guardian/Old_Guardian/Old_Guardian_walk.png"
-dest_files=["res://.godot/imported/Old_Guardian_walk.png-65b76be780cdd4cbfe625561e7c38b03.ctex"]
+source_file="res://assets/INIMIGOS/Old_Guardian/Old_Guardian/Old_Guardian_walk.png"
+dest_files=["res://.godot/imported/Old_Guardian_walk.png-5574a1dc8265e83d58be09d35c5a5051.ctex"]
 
 [params]
 

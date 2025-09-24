@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://lxgdgvc7pus8"
-path="res://.godot/imported/adventurer-walk-03.png-9398f21b06429c71316a094c1386c0bf.ctex"
+path="res://.godot/imported/adventurer-walk-03.png-c34f8e693162a513324c65ab5e291727.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Adventurer-Hand-Combat/Individual Sprites/adventurer-walk-03.png"
-dest_files=["res://.godot/imported/adventurer-walk-03.png-9398f21b06429c71316a094c1386c0bf.ctex"]
+source_file="res://assets/PERSONAGEM/Adventurer-Hand-Combat/Individual Sprites/adventurer-walk-03.png"
+dest_files=["res://.godot/imported/adventurer-walk-03.png-c34f8e693162a513324c65ab5e291727.ctex"]
 
 [params]
 
