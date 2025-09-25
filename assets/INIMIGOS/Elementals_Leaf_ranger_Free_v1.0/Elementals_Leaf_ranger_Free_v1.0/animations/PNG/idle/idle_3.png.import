@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://csn2em0ampet3"
-path="res://.godot/imported/idle_3.png-40f14604944713cd0ec60f4a648d4fb5.ctex"
+uid="uid://lsw6r340h054"
+path="res://.godot/imported/idle_3.png-2a6e6d87554532e5bf631381abd9649c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Elementals_Leaf_ranger_Free_v1.0/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/idle/idle_3.png"
-dest_files=["res://.godot/imported/idle_3.png-40f14604944713cd0ec60f4a648d4fb5.ctex"]
+source_file="res://assets/INIMIGOS/Elementals_Leaf_ranger_Free_v1.0/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/idle/idle_3.png"
+dest_files=["res://.godot/imported/idle_3.png-2a6e6d87554532e5bf631381abd9649c.ctex"]
 
 [params]
 

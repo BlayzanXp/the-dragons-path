@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bsykf5t58tmc4"
-path="res://.godot/imported/FLYING.png-e279d7f90461ed4e7da049956c1ef549.ctex"
+uid="uid://4o7ajkppwanf"
+path="res://.godot/imported/FLYING.png-3c16cf07c043836fb3edc2689f188520.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Flying Demon 2D Pixel Art/Flying Demon 2D Pixel Art/Sprites/without_outline/FLYING.png"
-dest_files=["res://.godot/imported/FLYING.png-e279d7f90461ed4e7da049956c1ef549.ctex"]
+source_file="res://assets/INIMIGOS/Flying Demon 2D Pixel Art/Flying Demon 2D Pixel Art/Sprites/without_outline/FLYING.png"
+dest_files=["res://.godot/imported/FLYING.png-3c16cf07c043836fb3edc2689f188520.ctex"]
 
 [params]
 

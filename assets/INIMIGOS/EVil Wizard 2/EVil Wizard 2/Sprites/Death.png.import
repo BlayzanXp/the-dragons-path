@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d10vjty6s5c30"
-path="res://.godot/imported/Death.png-aa0b3f32c81ba8b0d87f7518cf44ddb7.ctex"
+uid="uid://y1l245huj21y"
+path="res://.godot/imported/Death.png-b8b7fc5c4662eb0bb4fbc3a51c2ddc8a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/EVil Wizard 2/EVil Wizard 2/Sprites/Death.png"
-dest_files=["res://.godot/imported/Death.png-aa0b3f32c81ba8b0d87f7518cf44ddb7.ctex"]
+source_file="res://assets/INIMIGOS/EVil Wizard 2/EVil Wizard 2/Sprites/Death.png"
+dest_files=["res://.godot/imported/Death.png-b8b7fc5c4662eb0bb4fbc3a51c2ddc8a.ctex"]
 
 [params]
 

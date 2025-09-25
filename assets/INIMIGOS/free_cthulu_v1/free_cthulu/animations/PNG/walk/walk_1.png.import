@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://blpd0tjdgeklr"
-path="res://.godot/imported/walk_1.png-e9bac4f775235396be6d250a7d8b1a9f.ctex"
+uid="uid://dosygikp74hcc"
+path="res://.godot/imported/walk_1.png-e85a6e73605b46429def144a01a1956c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/free_cthulu_v1/free_cthulu/animations/PNG/walk/walk_1.png"
-dest_files=["res://.godot/imported/walk_1.png-e9bac4f775235396be6d250a7d8b1a9f.ctex"]
+source_file="res://assets/INIMIGOS/free_cthulu_v1/free_cthulu/animations/PNG/walk/walk_1.png"
+dest_files=["res://.godot/imported/walk_1.png-e85a6e73605b46429def144a01a1956c.ctex"]
 
 [params]
 

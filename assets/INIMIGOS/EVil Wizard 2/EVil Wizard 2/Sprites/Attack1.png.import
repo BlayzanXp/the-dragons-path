@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://1jeek61u1m0f"
-path="res://.godot/imported/Attack1.png-b16961ddd1ea77189f9de55254bb3aa6.ctex"
+uid="uid://cdj77305ab07o"
+path="res://.godot/imported/Attack1.png-a8032342d2a0633eb3273fe653c73ba9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/EVil Wizard 2/EVil Wizard 2/Sprites/Attack1.png"
-dest_files=["res://.godot/imported/Attack1.png-b16961ddd1ea77189f9de55254bb3aa6.ctex"]
+source_file="res://assets/INIMIGOS/EVil Wizard 2/EVil Wizard 2/Sprites/Attack1.png"
+dest_files=["res://.godot/imported/Attack1.png-a8032342d2a0633eb3273fe653c73ba9.ctex"]
 
 [params]
 

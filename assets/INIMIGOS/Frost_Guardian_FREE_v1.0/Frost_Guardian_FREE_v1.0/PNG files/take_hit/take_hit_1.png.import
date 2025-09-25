@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dg6gxbbt4lehp"
-path="res://.godot/imported/take_hit_1.png-01ecf6d29d5e6d88fc05b290d1658aba.ctex"
+uid="uid://2ykxe8apkdnf"
+path="res://.godot/imported/take_hit_1.png-52051b89688924ff0a23dae9e92412ec.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Frost_Guardian_FREE_v1.0/Frost_Guardian_FREE_v1.0/PNG files/take_hit/take_hit_1.png"
-dest_files=["res://.godot/imported/take_hit_1.png-01ecf6d29d5e6d88fc05b290d1658aba.ctex"]
+source_file="res://assets/INIMIGOS/Frost_Guardian_FREE_v1.0/Frost_Guardian_FREE_v1.0/PNG files/take_hit/take_hit_1.png"
+dest_files=["res://.godot/imported/take_hit_1.png-52051b89688924ff0a23dae9e92412ec.ctex"]
 
 [params]
 

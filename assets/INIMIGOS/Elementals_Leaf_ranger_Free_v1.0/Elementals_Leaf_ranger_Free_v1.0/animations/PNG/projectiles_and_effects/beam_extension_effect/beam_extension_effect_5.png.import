@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://kfw3q8fcegmq"
-path="res://.godot/imported/beam_extension_effect_5.png-e4e5d3aa03f41936b0baa2031bdf0acd.ctex"
+uid="uid://cmbf644j1pr1h"
+path="res://.godot/imported/beam_extension_effect_5.png-65c89ee46cd62b03ecb38a5743ec0b26.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Elementals_Leaf_ranger_Free_v1.0/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/projectiles_and_effects/beam_extension_effect/beam_extension_effect_5.png"
-dest_files=["res://.godot/imported/beam_extension_effect_5.png-e4e5d3aa03f41936b0baa2031bdf0acd.ctex"]
+source_file="res://assets/INIMIGOS/Elementals_Leaf_ranger_Free_v1.0/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/projectiles_and_effects/beam_extension_effect/beam_extension_effect_5.png"
+dest_files=["res://.godot/imported/beam_extension_effect_5.png-65c89ee46cd62b03ecb38a5743ec0b26.ctex"]
 
 [params]
 

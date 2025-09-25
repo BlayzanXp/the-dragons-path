@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cwgn3g4wif3re"
-path="res://.godot/imported/Heart.png-da6b54fc3cf64545ff1b92f21e93c153.ctex"
+uid="uid://c2ws3fbxio61g"
+path="res://.godot/imported/Heart.png-a285a0f2a6a8a966026d1edd23202418.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Pixel Health Bar Asset Pack 1 by Adwit Rahman (2)/Pixel Health Bar Asset Pack 1 by Adwit Rahman/Pixel Health Bar 1/Heart.png"
-dest_files=["res://.godot/imported/Heart.png-da6b54fc3cf64545ff1b92f21e93c153.ctex"]
+source_file="res://assets/ASSETS/Pixel Health Bar Asset Pack 1 by Adwit Rahman (2)/Pixel Health Bar Asset Pack 1 by Adwit Rahman/Pixel Health Bar 1/Heart.png"
+dest_files=["res://.godot/imported/Heart.png-a285a0f2a6a8a966026d1edd23202418.ctex"]
 
 [params]
 

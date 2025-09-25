@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://7fqujo816k2l"
-path="res://.godot/imported/dark fantasy big boss walk.png-f075b12b5ded22aabe64581da790e611.ctex"
+uid="uid://dx4wvvre8dd84"
+path="res://.godot/imported/dark fantasy big boss walk.png-af4a88007e0bf37eebf4db25e3d6cdd7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/2023.10.6 dark fantasy big boss free/dark fantasy big boss walk.png"
-dest_files=["res://.godot/imported/dark fantasy big boss walk.png-f075b12b5ded22aabe64581da790e611.ctex"]
+source_file="res://assets/INIMIGOS/2023.10.6 dark fantasy big boss free/dark fantasy big boss walk.png"
+dest_files=["res://.godot/imported/dark fantasy big boss walk.png-af4a88007e0bf37eebf4db25e3d6cdd7.ctex"]
 
 [params]
 

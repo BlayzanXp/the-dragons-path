@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bmbqp70e76hck"
-path="res://.godot/imported/defend_8.png-3c0880f621972f8ae6b49f826ab41857.ctex"
+uid="uid://c8d8qsltdcl1v"
+path="res://.godot/imported/defend_8.png-d3cd8efb603f32ccfe533b50894e80ab.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Elementals_Leaf_ranger_Free_v1.0/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/defend/defend_8.png"
-dest_files=["res://.godot/imported/defend_8.png-3c0880f621972f8ae6b49f826ab41857.ctex"]
+source_file="res://assets/INIMIGOS/Elementals_Leaf_ranger_Free_v1.0/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/defend/defend_8.png"
+dest_files=["res://.godot/imported/defend_8.png-d3cd8efb603f32ccfe533b50894e80ab.ctex"]
 
 [params]
 

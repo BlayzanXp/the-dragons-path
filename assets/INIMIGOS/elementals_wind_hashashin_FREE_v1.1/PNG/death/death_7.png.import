@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bva1i3tfsvhn2"
-path="res://.godot/imported/death_7.png-92e97fcae658929a3c1be690eeeebc8a.ctex"
+uid="uid://tddm35h8d3kp"
+path="res://.godot/imported/death_7.png-d14f94ff21b7af5f9782b8872081fb92.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/elementals_wind_hashashin_FREE_v1.1/PNG/death/death_7.png"
-dest_files=["res://.godot/imported/death_7.png-92e97fcae658929a3c1be690eeeebc8a.ctex"]
+source_file="res://assets/INIMIGOS/elementals_wind_hashashin_FREE_v1.1/PNG/death/death_7.png"
+dest_files=["res://.godot/imported/death_7.png-d14f94ff21b7af5f9782b8872081fb92.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d32s5jvdcbhcy"
-path="res://.godot/imported/dark fantasy big boss hit.png-8d1fd472227a15c97670fb2216653115.ctex"
+uid="uid://cxw004grn8631"
+path="res://.godot/imported/dark fantasy big boss hit.png-b5a54cfd71f8f75611ab82cf9dc112ab.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/2023.10.6 dark fantasy big boss free/dark fantasy big boss hit.png"
-dest_files=["res://.godot/imported/dark fantasy big boss hit.png-8d1fd472227a15c97670fb2216653115.ctex"]
+source_file="res://assets/INIMIGOS/2023.10.6 dark fantasy big boss free/dark fantasy big boss hit.png"
+dest_files=["res://.godot/imported/dark fantasy big boss hit.png-b5a54cfd71f8f75611ab82cf9dc112ab.ctex"]
 
 [params]
 

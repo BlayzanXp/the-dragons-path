@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cidu0kogiuty6"
-path="res://.godot/imported/Run.png-8496910e042b2bf84c2aa5117a1e3561.ctex"
+uid="uid://cxgegymjpcwyy"
+path="res://.godot/imported/Run.png-5d10b33b100c5de5db2c0ccbe103dce1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/EVil Wizard 2/EVil Wizard 2/Sprites/Run.png"
-dest_files=["res://.godot/imported/Run.png-8496910e042b2bf84c2aa5117a1e3561.ctex"]
+source_file="res://assets/INIMIGOS/EVil Wizard 2/EVil Wizard 2/Sprites/Run.png"
+dest_files=["res://.godot/imported/Run.png-5d10b33b100c5de5db2c0ccbe103dce1.ctex"]
 
 [params]
 

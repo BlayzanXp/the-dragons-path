@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b6anlvhggin2h"
-path="res://.godot/imported/Jump.png-97912ccfa58a8ae367f0940e81eb9ab6.ctex"
+uid="uid://dvbe2wx1f0cdp"
+path="res://.godot/imported/Jump.png-e5a034cc450a6aa0b24fb68f4047845c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/EVil Wizard 2/EVil Wizard 2/Sprites/Jump.png"
-dest_files=["res://.godot/imported/Jump.png-97912ccfa58a8ae367f0940e81eb9ab6.ctex"]
+source_file="res://assets/INIMIGOS/EVil Wizard 2/EVil Wizard 2/Sprites/Jump.png"
+dest_files=["res://.godot/imported/Jump.png-e5a034cc450a6aa0b24fb68f4047845c.ctex"]
 
 [params]
 

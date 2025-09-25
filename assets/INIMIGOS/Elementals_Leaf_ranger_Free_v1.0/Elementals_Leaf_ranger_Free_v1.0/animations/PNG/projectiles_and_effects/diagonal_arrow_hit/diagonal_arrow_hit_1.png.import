@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cd7hadrhbvnge"
-path="res://.godot/imported/diagonal_arrow_hit_1.png-e6eeaaa4cf27c15ac9a3baf1ad306f60.ctex"
+uid="uid://dmastow2fmptg"
+path="res://.godot/imported/diagonal_arrow_hit_1.png-71b927fd02bb406235715d27edb71205.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Elementals_Leaf_ranger_Free_v1.0/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/projectiles_and_effects/diagonal_arrow_hit/diagonal_arrow_hit_1.png"
-dest_files=["res://.godot/imported/diagonal_arrow_hit_1.png-e6eeaaa4cf27c15ac9a3baf1ad306f60.ctex"]
+source_file="res://assets/INIMIGOS/Elementals_Leaf_ranger_Free_v1.0/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/projectiles_and_effects/diagonal_arrow_hit/diagonal_arrow_hit_1.png"
+dest_files=["res://.godot/imported/diagonal_arrow_hit_1.png-71b927fd02bb406235715d27edb71205.ctex"]
 
 [params]
 

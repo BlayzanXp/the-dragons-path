@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://drfhwjval3507"
-path="res://.godot/imported/idle_2.png-82d21d44e7bd1c76cd9e4c6f88729544.ctex"
+uid="uid://cy7cp46jae7gv"
+path="res://.godot/imported/idle_2.png-2d75c17764cecb7b783e7130b3c3f000.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/elementals_wind_hashashin_FREE_v1.1/PNG/idle/idle_2.png"
-dest_files=["res://.godot/imported/idle_2.png-82d21d44e7bd1c76cd9e4c6f88729544.ctex"]
+source_file="res://assets/INIMIGOS/elementals_wind_hashashin_FREE_v1.1/PNG/idle/idle_2.png"
+dest_files=["res://.godot/imported/idle_2.png-2d75c17764cecb7b783e7130b3c3f000.ctex"]
 
 [params]
 

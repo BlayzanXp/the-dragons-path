@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://fnektk5a4fu8"
-path="res://.godot/imported/fly_2.png-a033eef174ccdb3afe5eebb06516a039.ctex"
+uid="uid://cg7g3mtvyainb"
+path="res://.godot/imported/fly_2.png-51a63cb0f3a22154315832b7464ff0ac.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/free_cthulu_v1/free_cthulu/animations/PNG/fly/fly_2.png"
-dest_files=["res://.godot/imported/fly_2.png-a033eef174ccdb3afe5eebb06516a039.ctex"]
+source_file="res://assets/INIMIGOS/free_cthulu_v1/free_cthulu/animations/PNG/fly/fly_2.png"
+dest_files=["res://.godot/imported/fly_2.png-51a63cb0f3a22154315832b7464ff0ac.ctex"]
 
 [params]
 

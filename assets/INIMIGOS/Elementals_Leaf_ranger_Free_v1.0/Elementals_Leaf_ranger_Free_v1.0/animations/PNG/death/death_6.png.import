@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://f3x64nmuj58n"
-path="res://.godot/imported/death_6.png-8cb83a2a17d18440223584c61b7651e9.ctex"
+uid="uid://d1ldqx3o3aa2"
+path="res://.godot/imported/death_6.png-43fa26c135f92a569ccc9ea85ab1a901.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Elementals_Leaf_ranger_Free_v1.0/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/death/death_6.png"
-dest_files=["res://.godot/imported/death_6.png-8cb83a2a17d18440223584c61b7651e9.ctex"]
+source_file="res://assets/INIMIGOS/Elementals_Leaf_ranger_Free_v1.0/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/death/death_6.png"
+dest_files=["res://.godot/imported/death_6.png-43fa26c135f92a569ccc9ea85ab1a901.ctex"]
 
 [params]
 

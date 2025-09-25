@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cg55nx58hwvjx"
-path="res://.godot/imported/Health_0000_Created-by-Adwit-Rahman-@adwitr_itch.io-.png-241ff24e0eda06ff02db84dcad4ef512.ctex"
+uid="uid://ck7e35lygwh0s"
+path="res://.godot/imported/Health_0000_Created-by-Adwit-Rahman-@adwitr_itch.io-.png-51937a8ad4e341bacea1ec237435f1d2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Pixel Health Bar Asset Pack 1 by Adwit Rahman (2)/Pixel Health Bar Asset Pack 1 by Adwit Rahman/Pixel Health Bar 1/Health_0000_Created-by-Adwit-Rahman-@adwitr_itch.io-.png"
-dest_files=["res://.godot/imported/Health_0000_Created-by-Adwit-Rahman-@adwitr_itch.io-.png-241ff24e0eda06ff02db84dcad4ef512.ctex"]
+source_file="res://assets/ASSETS/Pixel Health Bar Asset Pack 1 by Adwit Rahman (2)/Pixel Health Bar Asset Pack 1 by Adwit Rahman/Pixel Health Bar 1/Health_0000_Created-by-Adwit-Rahman-@adwitr_itch.io-.png"
+dest_files=["res://.godot/imported/Health_0000_Created-by-Adwit-Rahman-@adwitr_itch.io-.png-51937a8ad4e341bacea1ec237435f1d2.ctex"]
 
 [params]
 

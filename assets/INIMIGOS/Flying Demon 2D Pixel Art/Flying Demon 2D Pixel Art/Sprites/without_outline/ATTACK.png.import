@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cphdidxrxvoqm"
-path="res://.godot/imported/ATTACK.png-b3dfe48449b947ecd81f2a56dd3cde68.ctex"
+uid="uid://da11vtnoas06m"
+path="res://.godot/imported/ATTACK.png-261056341b437ae358652723681d0431.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Flying Demon 2D Pixel Art/Flying Demon 2D Pixel Art/Sprites/without_outline/ATTACK.png"
-dest_files=["res://.godot/imported/ATTACK.png-b3dfe48449b947ecd81f2a56dd3cde68.ctex"]
+source_file="res://assets/INIMIGOS/Flying Demon 2D Pixel Art/Flying Demon 2D Pixel Art/Sprites/without_outline/ATTACK.png"
+dest_files=["res://.godot/imported/ATTACK.png-261056341b437ae358652723681d0431.ctex"]
 
 [params]
 

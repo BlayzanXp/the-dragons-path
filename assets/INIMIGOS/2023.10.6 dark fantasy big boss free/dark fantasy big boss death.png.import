@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bhfes70hf1rfb"
-path="res://.godot/imported/dark fantasy big boss death.png-69e7db6ba801a642391264765735392f.ctex"
+uid="uid://bkxng2tg2fa1x"
+path="res://.godot/imported/dark fantasy big boss death.png-609ec1c72f071e244d582fb71b3a4a70.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/2023.10.6 dark fantasy big boss free/dark fantasy big boss death.png"
-dest_files=["res://.godot/imported/dark fantasy big boss death.png-69e7db6ba801a642391264765735392f.ctex"]
+source_file="res://assets/INIMIGOS/2023.10.6 dark fantasy big boss free/dark fantasy big boss death.png"
+dest_files=["res://.godot/imported/dark fantasy big boss death.png-609ec1c72f071e244d582fb71b3a4a70.ctex"]
 
 [params]
 

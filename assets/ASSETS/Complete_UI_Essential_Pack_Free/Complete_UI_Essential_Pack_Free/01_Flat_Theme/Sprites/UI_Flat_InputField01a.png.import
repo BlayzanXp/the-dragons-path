@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b13pmg0q4apgy"
-path="res://.godot/imported/UI_Flat_InputField01a.png-068d01749dca04a24c5ee0b1433ceaf0.ctex"
+uid="uid://igikghbbuvn0"
+path="res://.godot/imported/UI_Flat_InputField01a.png-7c51163476d2d18f4eb237dd4f35aa12.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Complete_UI_Essential_Pack_Free/Complete_UI_Essential_Pack_Free/01_Flat_Theme/Sprites/UI_Flat_InputField01a.png"
-dest_files=["res://.godot/imported/UI_Flat_InputField01a.png-068d01749dca04a24c5ee0b1433ceaf0.ctex"]
+source_file="res://assets/ASSETS/Complete_UI_Essential_Pack_Free/Complete_UI_Essential_Pack_Free/01_Flat_Theme/Sprites/UI_Flat_InputField01a.png"
+dest_files=["res://.godot/imported/UI_Flat_InputField01a.png-7c51163476d2d18f4eb237dd4f35aa12.ctex"]
 
 [params]
 

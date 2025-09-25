@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://j2g2os0it7l3"
-path="res://.godot/imported/run_4.png-486b65cc6e803b5d1415dc2e26f939b7.ctex"
+uid="uid://c1tbnbry1jlb1"
+path="res://.godot/imported/run_4.png-621dfa9245472eea806dc01aed178986.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/elementals_wind_hashashin_FREE_v1.1/PNG/run/run_4.png"
-dest_files=["res://.godot/imported/run_4.png-486b65cc6e803b5d1415dc2e26f939b7.ctex"]
+source_file="res://assets/INIMIGOS/elementals_wind_hashashin_FREE_v1.1/PNG/run/run_4.png"
+dest_files=["res://.godot/imported/run_4.png-621dfa9245472eea806dc01aed178986.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cp77efsambn4a"
-path="res://.godot/imported/Pixel (4).png-4177a057bf9ecfc7e91b299a77c59123.ctex"
+uid="uid://51kety764e34"
+path="res://.godot/imported/Pixel (4).png-71f0a4b32374cd2a819d9d262dee50c1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Pixel Health Bar Asset Pack 1 by Adwit Rahman (2)/Pixel Health Bar Asset Pack 1 by Adwit Rahman/Pixel Health Bar 1/Pixel (4).png"
-dest_files=["res://.godot/imported/Pixel (4).png-4177a057bf9ecfc7e91b299a77c59123.ctex"]
+source_file="res://assets/ASSETS/Pixel Health Bar Asset Pack 1 by Adwit Rahman (2)/Pixel Health Bar Asset Pack 1 by Adwit Rahman/Pixel Health Bar 1/Pixel (4).png"
+dest_files=["res://.godot/imported/Pixel (4).png-71f0a4b32374cd2a819d9d262dee50c1.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dvevmfygc57sy"
-path="res://.godot/imported/UI_Flat_Banner01a.png-eb48b7e87a28fbf28d796a207b097f56.ctex"
+uid="uid://dc7skhwws4lv4"
+path="res://.godot/imported/UI_Flat_Banner01a.png-cc3f78e0112bcc2c08c2e0f177cfd372.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Complete_UI_Essential_Pack_Free/Complete_UI_Essential_Pack_Free/01_Flat_Theme/Sprites/UI_Flat_Banner01a.png"
-dest_files=["res://.godot/imported/UI_Flat_Banner01a.png-eb48b7e87a28fbf28d796a207b097f56.ctex"]
+source_file="res://assets/ASSETS/Complete_UI_Essential_Pack_Free/Complete_UI_Essential_Pack_Free/01_Flat_Theme/Sprites/UI_Flat_Banner01a.png"
+dest_files=["res://.godot/imported/UI_Flat_Banner01a.png-cc3f78e0112bcc2c08c2e0f177cfd372.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cweba6up6t46c"
-path="res://.godot/imported/jump_14.png-1800febcb3b5bedabe9929abdf566b96.ctex"
+uid="uid://c0fwxv7g42cgm"
+path="res://.godot/imported/jump_14.png-b10f45de098cfa01a39b0cacffd23aeb.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Elementals_Leaf_ranger_Free_v1.0/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/jump_full/jump_14.png"
-dest_files=["res://.godot/imported/jump_14.png-1800febcb3b5bedabe9929abdf566b96.ctex"]
+source_file="res://assets/INIMIGOS/Elementals_Leaf_ranger_Free_v1.0/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/jump_full/jump_14.png"
+dest_files=["res://.godot/imported/jump_14.png-b10f45de098cfa01a39b0cacffd23aeb.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://47u2u0nnjdo"
-path="res://.godot/imported/3_atk_3.png-543a2084e3df8243c5972769dedb1cf7.ctex"
+uid="uid://ddngv70ht6d6h"
+path="res://.godot/imported/3_atk_3.png-315506db297923c17ca1b8e6dd7780e4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/elementals_wind_hashashin_FREE_v1.1/PNG/3_atk/3_atk_3.png"
-dest_files=["res://.godot/imported/3_atk_3.png-543a2084e3df8243c5972769dedb1cf7.ctex"]
+source_file="res://assets/INIMIGOS/elementals_wind_hashashin_FREE_v1.1/PNG/3_atk/3_atk_3.png"
+dest_files=["res://.godot/imported/3_atk_3.png-315506db297923c17ca1b8e6dd7780e4.ctex"]
 
 [params]
 

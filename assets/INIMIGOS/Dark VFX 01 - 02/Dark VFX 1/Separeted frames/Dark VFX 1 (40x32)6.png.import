@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dt365yqput6a8"
-path="res://.godot/imported/Dark VFX 1 (40x32)6.png-1b23d7d66f84cb8fdf38b88b03ec6231.ctex"
+uid="uid://bgvt5p7r60eql"
+path="res://.godot/imported/Dark VFX 1 (40x32)6.png-e1cf2fc1fad51a06e463401bf1c7f9bc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Dark VFX 01 - 02/Dark VFX 1/Separeted frames/Dark VFX 1 (40x32)6.png"
-dest_files=["res://.godot/imported/Dark VFX 1 (40x32)6.png-1b23d7d66f84cb8fdf38b88b03ec6231.ctex"]
+source_file="res://assets/INIMIGOS/Dark VFX 01 - 02/Dark VFX 1/Separeted frames/Dark VFX 1 (40x32)6.png"
+dest_files=["res://.godot/imported/Dark VFX 1 (40x32)6.png-e1cf2fc1fad51a06e463401bf1c7f9bc.ctex"]
 
 [params]
 

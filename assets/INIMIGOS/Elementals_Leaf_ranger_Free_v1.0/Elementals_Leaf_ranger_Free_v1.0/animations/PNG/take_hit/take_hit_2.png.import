@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://t5pho6kdj8es"
-path="res://.godot/imported/take_hit_2.png-535b99db6867b07c224e33f09f6ddd21.ctex"
+uid="uid://dht6jogq22qnf"
+path="res://.godot/imported/take_hit_2.png-24c7fd53b6a4f251d37c12a1c602b445.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Elementals_Leaf_ranger_Free_v1.0/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/take_hit/take_hit_2.png"
-dest_files=["res://.godot/imported/take_hit_2.png-535b99db6867b07c224e33f09f6ddd21.ctex"]
+source_file="res://assets/INIMIGOS/Elementals_Leaf_ranger_Free_v1.0/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/take_hit/take_hit_2.png"
+dest_files=["res://.godot/imported/take_hit_2.png-24c7fd53b6a4f251d37c12a1c602b445.ctex"]
 
 [params]
 

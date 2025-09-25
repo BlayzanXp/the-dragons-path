@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b0an5tcpnur8n"
-path="res://.godot/imported/j_down_3.png-0ceabfcccc61b8d71f2222ec73bcda0d.ctex"
+uid="uid://bsi1bce0nmsr"
+path="res://.godot/imported/j_down_3.png-3a1ff12134f90af3146e432085a66977.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/elementals_wind_hashashin_FREE_v1.1/PNG/j_down/j_down_3.png"
-dest_files=["res://.godot/imported/j_down_3.png-0ceabfcccc61b8d71f2222ec73bcda0d.ctex"]
+source_file="res://assets/INIMIGOS/elementals_wind_hashashin_FREE_v1.1/PNG/j_down/j_down_3.png"
+dest_files=["res://.godot/imported/j_down_3.png-3a1ff12134f90af3146e432085a66977.ctex"]
 
 [params]
 

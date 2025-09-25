@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bg17mstehbb0y"
-path="res://.godot/imported/death_1.png-0725f50a921a0caf642fc816cf4e109c.ctex"
+uid="uid://d1gyk8tr6mc66"
+path="res://.godot/imported/death_1.png-32ac8b22ab31b4310380cc87f5816806.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/free_cthulu_v1/free_cthulu/animations/PNG/death/death_1.png"
-dest_files=["res://.godot/imported/death_1.png-0725f50a921a0caf642fc816cf4e109c.ctex"]
+source_file="res://assets/INIMIGOS/free_cthulu_v1/free_cthulu/animations/PNG/death/death_1.png"
+dest_files=["res://.godot/imported/death_1.png-32ac8b22ab31b4310380cc87f5816806.ctex"]
 
 [params]
 

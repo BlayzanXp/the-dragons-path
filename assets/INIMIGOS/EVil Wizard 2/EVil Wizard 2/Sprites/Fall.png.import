@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://5w1j37n7lmw2"
-path="res://.godot/imported/Fall.png-663b8281a67bf59d5d7b49992b805bbb.ctex"
+uid="uid://baeomuqpkbcvl"
+path="res://.godot/imported/Fall.png-333f5fafc58b84e520241d543a871aa9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/EVil Wizard 2/EVil Wizard 2/Sprites/Fall.png"
-dest_files=["res://.godot/imported/Fall.png-663b8281a67bf59d5d7b49992b805bbb.ctex"]
+source_file="res://assets/INIMIGOS/EVil Wizard 2/EVil Wizard 2/Sprites/Fall.png"
+dest_files=["res://.godot/imported/Fall.png-333f5fafc58b84e520241d543a871aa9.ctex"]
 
 [params]
 

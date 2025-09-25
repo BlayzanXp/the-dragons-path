@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ch8wcy60dwpfp"
-path="res://.godot/imported/j_up_2.png-1232db7f421f2ecd0f203c85794a2b44.ctex"
+uid="uid://o0n0g7uhsaa4"
+path="res://.godot/imported/j_up_2.png-08814a067fc99d58bce8294ac5b96012.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/elementals_wind_hashashin_FREE_v1.1/PNG/j_up/j_up_2.png"
-dest_files=["res://.godot/imported/j_up_2.png-1232db7f421f2ecd0f203c85794a2b44.ctex"]
+source_file="res://assets/INIMIGOS/elementals_wind_hashashin_FREE_v1.1/PNG/j_up/j_up_2.png"
+dest_files=["res://.godot/imported/j_up_2.png-08814a067fc99d58bce8294ac5b96012.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c6dfvbbc6i610"
-path="res://.godot/imported/hurt_4.png-c1833a33a6d74e508e5ab967084a0f80.ctex"
+uid="uid://clvgo6g35gdin"
+path="res://.godot/imported/hurt_4.png-8b8b639cb41b12fa247b612635fe616f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/free_cthulu_v1/free_cthulu/animations/PNG/hurt/hurt_4.png"
-dest_files=["res://.godot/imported/hurt_4.png-c1833a33a6d74e508e5ab967084a0f80.ctex"]
+source_file="res://assets/INIMIGOS/free_cthulu_v1/free_cthulu/animations/PNG/hurt/hurt_4.png"
+dest_files=["res://.godot/imported/hurt_4.png-8b8b639cb41b12fa247b612635fe616f.ctex"]
 
 [params]
 

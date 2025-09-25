@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://2x25w158bhu7"
-path="res://.godot/imported/Pixel1_Healthbar_0000_pixel1_staminabar.png-d5a038a5fa730bf9f9c06343e9430e36.ctex"
+uid="uid://iv4r8y7foi1"
+path="res://.godot/imported/Pixel1_Healthbar_0000_pixel1_staminabar.png-f30e7881004d56f04c6c4f655218e759.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Pixel Health Bar Asset Pack 1 by Adwit Rahman (2)/Pixel Health Bar Asset Pack 1 by Adwit Rahman/Pixel Health Bar 1/Pixel1_Healthbar_0000_pixel1_staminabar.png"
-dest_files=["res://.godot/imported/Pixel1_Healthbar_0000_pixel1_staminabar.png-d5a038a5fa730bf9f9c06343e9430e36.ctex"]
+source_file="res://assets/ASSETS/Pixel Health Bar Asset Pack 1 by Adwit Rahman (2)/Pixel Health Bar Asset Pack 1 by Adwit Rahman/Pixel Health Bar 1/Pixel1_Healthbar_0000_pixel1_staminabar.png"
+dest_files=["res://.godot/imported/Pixel1_Healthbar_0000_pixel1_staminabar.png-f30e7881004d56f04c6c4f655218e759.ctex"]
 
 [params]
 

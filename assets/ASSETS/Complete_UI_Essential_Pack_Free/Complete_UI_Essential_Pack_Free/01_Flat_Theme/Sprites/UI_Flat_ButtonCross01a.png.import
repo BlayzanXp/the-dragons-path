@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://br1iktmeb2fkl"
-path="res://.godot/imported/UI_Flat_ButtonCross01a.png-61f03e778d7f69c0e4811967a936599a.ctex"
+uid="uid://dd4owyygau2oa"
+path="res://.godot/imported/UI_Flat_ButtonCross01a.png-6bb25a1c19474a80733cca67173dbb22.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Complete_UI_Essential_Pack_Free/Complete_UI_Essential_Pack_Free/01_Flat_Theme/Sprites/UI_Flat_ButtonCross01a.png"
-dest_files=["res://.godot/imported/UI_Flat_ButtonCross01a.png-61f03e778d7f69c0e4811967a936599a.ctex"]
+source_file="res://assets/ASSETS/Complete_UI_Essential_Pack_Free/Complete_UI_Essential_Pack_Free/01_Flat_Theme/Sprites/UI_Flat_ButtonCross01a.png"
+dest_files=["res://.godot/imported/UI_Flat_ButtonCross01a.png-6bb25a1c19474a80733cca67173dbb22.ctex"]
 
 [params]
 

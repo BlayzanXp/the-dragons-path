@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://buqeebgkn3um"
-path="res://.godot/imported/Pixel2_Healthbar_0001_pixel2_EmblemSpace.png-96012c6b95f32b43ac6830a6f8b92a06.ctex"
+uid="uid://dcre5yot2ytp5"
+path="res://.godot/imported/Pixel2_Healthbar_0001_pixel2_EmblemSpace.png-fb7e6a26ce528277b70af3585de11984.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Pixel Health Bar Asset Pack 1 by Adwit Rahman (2)/Pixel Health Bar Asset Pack 1 by Adwit Rahman/Pixel Health Bar 1/Pixel2_Healthbar_0001_pixel2_EmblemSpace.png"
-dest_files=["res://.godot/imported/Pixel2_Healthbar_0001_pixel2_EmblemSpace.png-96012c6b95f32b43ac6830a6f8b92a06.ctex"]
+source_file="res://assets/ASSETS/Pixel Health Bar Asset Pack 1 by Adwit Rahman (2)/Pixel Health Bar Asset Pack 1 by Adwit Rahman/Pixel Health Bar 1/Pixel2_Healthbar_0001_pixel2_EmblemSpace.png"
+dest_files=["res://.godot/imported/Pixel2_Healthbar_0001_pixel2_EmblemSpace.png-fb7e6a26ce528277b70af3585de11984.ctex"]
 
 [params]
 

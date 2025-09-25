@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dak6paoqoj1d0"
-path="res://.godot/imported/Idle.png-0eb5e60e26d2b3116e201a5f859c9ca2.ctex"
+uid="uid://ds5haxy3kfak0"
+path="res://.godot/imported/Idle.png-153144d1a8aaa5abbd19140575623d16.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/EVil Wizard 2/EVil Wizard 2/Sprites/Idle.png"
-dest_files=["res://.godot/imported/Idle.png-0eb5e60e26d2b3116e201a5f859c9ca2.ctex"]
+source_file="res://assets/INIMIGOS/EVil Wizard 2/EVil Wizard 2/Sprites/Idle.png"
+dest_files=["res://.godot/imported/Idle.png-153144d1a8aaa5abbd19140575623d16.ctex"]
 
 [params]
 

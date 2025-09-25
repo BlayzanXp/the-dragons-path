@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cpvteru857tix"
-path="res://.godot/imported/2atk_4.png-f277bea122738b5ebffe6c78a6aa6c57.ctex"
+uid="uid://chubwavlblgap"
+path="res://.godot/imported/2atk_4.png-425bb41c5565e7729f19e775059c0029.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/free_cthulu_v1/free_cthulu/animations/PNG/2atk/2atk_4.png"
-dest_files=["res://.godot/imported/2atk_4.png-f277bea122738b5ebffe6c78a6aa6c57.ctex"]
+source_file="res://assets/INIMIGOS/free_cthulu_v1/free_cthulu/animations/PNG/2atk/2atk_4.png"
+dest_files=["res://.godot/imported/2atk_4.png-425bb41c5565e7729f19e775059c0029.ctex"]
 
 [params]
 

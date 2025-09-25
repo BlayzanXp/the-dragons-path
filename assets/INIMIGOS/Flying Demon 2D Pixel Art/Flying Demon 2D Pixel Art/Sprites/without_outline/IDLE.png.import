@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bvab2gnsm6juk"
-path="res://.godot/imported/IDLE.png-004da85cc8b04ad36b71d90cba546aa4.ctex"
+uid="uid://dd1gu6u2whmd2"
+path="res://.godot/imported/IDLE.png-5b6fd873dba3a208697adf0f23bbcdb4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Flying Demon 2D Pixel Art/Flying Demon 2D Pixel Art/Sprites/without_outline/IDLE.png"
-dest_files=["res://.godot/imported/IDLE.png-004da85cc8b04ad36b71d90cba546aa4.ctex"]
+source_file="res://assets/INIMIGOS/Flying Demon 2D Pixel Art/Flying Demon 2D Pixel Art/Sprites/without_outline/IDLE.png"
+dest_files=["res://.godot/imported/IDLE.png-5b6fd873dba3a208697adf0f23bbcdb4.ctex"]
 
 [params]
 

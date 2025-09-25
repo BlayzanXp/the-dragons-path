@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dqct5183q2wpm"
-path="res://.godot/imported/defend_2.png-44fe247f03c4c54b8080755cbf73e34f.ctex"
+uid="uid://yf02gkprlgwa"
+path="res://.godot/imported/defend_2.png-55b9d429243ba862809520de2285a243.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/elementals_wind_hashashin_FREE_v1.1/PNG/defend/defend_2.png"
-dest_files=["res://.godot/imported/defend_2.png-44fe247f03c4c54b8080755cbf73e34f.ctex"]
+source_file="res://assets/INIMIGOS/elementals_wind_hashashin_FREE_v1.1/PNG/defend/defend_2.png"
+dest_files=["res://.godot/imported/defend_2.png-55b9d429243ba862809520de2285a243.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://biomst5bcmjnd"
-path="res://.godot/imported/RPG Style (2).png-f7d21b539bd17eb5c229308fac64660e.ctex"
+uid="uid://c8gls8fgqofds"
+path="res://.godot/imported/RPG Style (2).png-85c87b6c623c86540cef5e0df790e36b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Pixel Health Bar Asset Pack 1 by Adwit Rahman (2)/Pixel Health Bar Asset Pack 1 by Adwit Rahman/Pixel Health Bar 1/RPG Style (2).png"
-dest_files=["res://.godot/imported/RPG Style (2).png-f7d21b539bd17eb5c229308fac64660e.ctex"]
+source_file="res://assets/ASSETS/Pixel Health Bar Asset Pack 1 by Adwit Rahman (2)/Pixel Health Bar Asset Pack 1 by Adwit Rahman/Pixel Health Bar 1/RPG Style (2).png"
+dest_files=["res://.godot/imported/RPG Style (2).png-85c87b6c623c86540cef5e0df790e36b.ctex"]
 
 [params]
 

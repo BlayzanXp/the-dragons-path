@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bv2md11a4d4b2"
-path="res://.godot/imported/arrow_hit_poison_5.png-067deafdada4a69c991daea220c16b09.ctex"
+uid="uid://c7qk7ef8b0ijn"
+path="res://.godot/imported/arrow_hit_poison_5.png-a54ea2b3bc01aad47e9ab23bbe838d75.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Elementals_Leaf_ranger_Free_v1.0/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/projectiles_and_effects/arrow_hit_poison/arrow_hit_poison_5.png"
-dest_files=["res://.godot/imported/arrow_hit_poison_5.png-067deafdada4a69c991daea220c16b09.ctex"]
+source_file="res://assets/INIMIGOS/Elementals_Leaf_ranger_Free_v1.0/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/projectiles_and_effects/arrow_hit_poison/arrow_hit_poison_5.png"
+dest_files=["res://.godot/imported/arrow_hit_poison_5.png-a54ea2b3bc01aad47e9ab23bbe838d75.ctex"]
 
 [params]
 

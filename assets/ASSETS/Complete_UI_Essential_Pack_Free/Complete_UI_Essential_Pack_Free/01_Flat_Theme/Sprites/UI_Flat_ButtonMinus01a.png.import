@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cv0anu6cwp2ke"
-path="res://.godot/imported/UI_Flat_ButtonMinus01a.png-bf0461d63b61c55f99af22642a4770b8.ctex"
+uid="uid://in66c2flnb5b"
+path="res://.godot/imported/UI_Flat_ButtonMinus01a.png-96c073f357057a77c7d353da2190e62b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Complete_UI_Essential_Pack_Free/Complete_UI_Essential_Pack_Free/01_Flat_Theme/Sprites/UI_Flat_ButtonMinus01a.png"
-dest_files=["res://.godot/imported/UI_Flat_ButtonMinus01a.png-bf0461d63b61c55f99af22642a4770b8.ctex"]
+source_file="res://assets/ASSETS/Complete_UI_Essential_Pack_Free/Complete_UI_Essential_Pack_Free/01_Flat_Theme/Sprites/UI_Flat_ButtonMinus01a.png"
+dest_files=["res://.godot/imported/UI_Flat_ButtonMinus01a.png-96c073f357057a77c7d353da2190e62b.ctex"]
 
 [params]
 

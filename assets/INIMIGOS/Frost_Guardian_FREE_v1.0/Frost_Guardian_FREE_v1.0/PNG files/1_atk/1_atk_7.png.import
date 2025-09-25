@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://i2hjng7b4raf"
-path="res://.godot/imported/1_atk_7.png-572be5f77e9cfb9b072811b3e87f9a9a.ctex"
+uid="uid://dphkafobxs2au"
+path="res://.godot/imported/1_atk_7.png-9f8c039bc71b672435f3a9f7d5005a85.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Frost_Guardian_FREE_v1.0/Frost_Guardian_FREE_v1.0/PNG files/1_atk/1_atk_7.png"
-dest_files=["res://.godot/imported/1_atk_7.png-572be5f77e9cfb9b072811b3e87f9a9a.ctex"]
+source_file="res://assets/INIMIGOS/Frost_Guardian_FREE_v1.0/Frost_Guardian_FREE_v1.0/PNG files/1_atk/1_atk_7.png"
+dest_files=["res://.godot/imported/1_atk_7.png-9f8c039bc71b672435f3a9f7d5005a85.ctex"]
 
 [params]
 

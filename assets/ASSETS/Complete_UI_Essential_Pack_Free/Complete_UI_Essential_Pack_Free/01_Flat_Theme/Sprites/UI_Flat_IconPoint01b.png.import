@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b80gnb7uwljfp"
-path="res://.godot/imported/UI_Flat_IconPoint01b.png-309ca7a086343bc786289aa473fcf826.ctex"
+uid="uid://dogx2maevorc0"
+path="res://.godot/imported/UI_Flat_IconPoint01b.png-0422a61d12ab126516ddb02568e09ce2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Complete_UI_Essential_Pack_Free/Complete_UI_Essential_Pack_Free/01_Flat_Theme/Sprites/UI_Flat_IconPoint01b.png"
-dest_files=["res://.godot/imported/UI_Flat_IconPoint01b.png-309ca7a086343bc786289aa473fcf826.ctex"]
+source_file="res://assets/ASSETS/Complete_UI_Essential_Pack_Free/Complete_UI_Essential_Pack_Free/01_Flat_Theme/Sprites/UI_Flat_IconPoint01b.png"
+dest_files=["res://.godot/imported/UI_Flat_IconPoint01b.png-0422a61d12ab126516ddb02568e09ce2.ctex"]
 
 [params]
 

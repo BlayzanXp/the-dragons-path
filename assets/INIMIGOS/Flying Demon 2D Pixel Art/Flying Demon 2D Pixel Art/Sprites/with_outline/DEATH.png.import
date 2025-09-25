@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://blcm6xfnocc3l"
-path="res://.godot/imported/DEATH.png-7cd55c447f48d7eee62ac800d35d38b1.ctex"
+uid="uid://b8ncatm4wqdhc"
+path="res://.godot/imported/DEATH.png-51ccba51639650c2aa9c2c49d573c010.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Flying Demon 2D Pixel Art/Flying Demon 2D Pixel Art/Sprites/with_outline/DEATH.png"
-dest_files=["res://.godot/imported/DEATH.png-7cd55c447f48d7eee62ac800d35d38b1.ctex"]
+source_file="res://assets/INIMIGOS/Flying Demon 2D Pixel Art/Flying Demon 2D Pixel Art/Sprites/with_outline/DEATH.png"
+dest_files=["res://.godot/imported/DEATH.png-51ccba51639650c2aa9c2c49d573c010.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bi8351pg6rt6b"
-path="res://.godot/imported/run_3.png-f3d698d5a5f9517b75b6654d97f66253.ctex"
+uid="uid://bnbe32841sayq"
+path="res://.godot/imported/run_3.png-2fa81e1acdebb00a0ccc267444d344d1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Elementals_Leaf_ranger_Free_v1.0/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/run/run_3.png"
-dest_files=["res://.godot/imported/run_3.png-f3d698d5a5f9517b75b6654d97f66253.ctex"]
+source_file="res://assets/INIMIGOS/Elementals_Leaf_ranger_Free_v1.0/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/run/run_3.png"
+dest_files=["res://.godot/imported/run_3.png-2fa81e1acdebb00a0ccc267444d344d1.ctex"]
 
 [params]
 

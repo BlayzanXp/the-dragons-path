@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b0wdtw60hkcc8"
-path="res://.godot/imported/death_8.png-8bda9efab43ffaf55964ea727184b5cb.ctex"
+uid="uid://qnv7lw2lo6ja"
+path="res://.godot/imported/death_8.png-e0dd2be3410f8d5ca9571470222a6d0b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Frost_Guardian_FREE_v1.0/Frost_Guardian_FREE_v1.0/PNG files/death/death_8.png"
-dest_files=["res://.godot/imported/death_8.png-8bda9efab43ffaf55964ea727184b5cb.ctex"]
+source_file="res://assets/INIMIGOS/Frost_Guardian_FREE_v1.0/Frost_Guardian_FREE_v1.0/PNG files/death/death_8.png"
+dest_files=["res://.godot/imported/death_8.png-e0dd2be3410f8d5ca9571470222a6d0b.ctex"]
 
 [params]
 

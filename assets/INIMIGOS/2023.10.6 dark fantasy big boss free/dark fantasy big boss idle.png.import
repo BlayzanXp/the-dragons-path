@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://jfantpipemts"
-path="res://.godot/imported/dark fantasy big boss idle.png-b8d2f3ce3912bce418f0465d724dd886.ctex"
+uid="uid://bsya46glg4ddp"
+path="res://.godot/imported/dark fantasy big boss idle.png-3c57e03c22cbf81d33c55e801d40028e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/2023.10.6 dark fantasy big boss free/dark fantasy big boss idle.png"
-dest_files=["res://.godot/imported/dark fantasy big boss idle.png-b8d2f3ce3912bce418f0465d724dd886.ctex"]
+source_file="res://assets/INIMIGOS/2023.10.6 dark fantasy big boss free/dark fantasy big boss idle.png"
+dest_files=["res://.godot/imported/dark fantasy big boss idle.png-3c57e03c22cbf81d33c55e801d40028e.ctex"]
 
 [params]
 

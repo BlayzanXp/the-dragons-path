@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bavtbe1u4rfat"
-path="res://.godot/imported/HURT.png-c70605767520ff57ba082b8e30b008b5.ctex"
+uid="uid://dqmmj75itvsml"
+path="res://.godot/imported/HURT.png-77e0b54cdf011b8e0f364013d7fd0183.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Flying Demon 2D Pixel Art/Flying Demon 2D Pixel Art/Sprites/with_outline/HURT.png"
-dest_files=["res://.godot/imported/HURT.png-c70605767520ff57ba082b8e30b008b5.ctex"]
+source_file="res://assets/INIMIGOS/Flying Demon 2D Pixel Art/Flying Demon 2D Pixel Art/Sprites/with_outline/HURT.png"
+dest_files=["res://.godot/imported/HURT.png-77e0b54cdf011b8e0f364013d7fd0183.ctex"]
 
 [params]
 

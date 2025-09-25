@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cjecas46bqwc4"
-path="res://.godot/imported/projectiles_and_effects_256x128_SpriteSheet.png-299baa4f205ddc6a4f765815764ab821.ctex"
+uid="uid://bikq85gdjnfyw"
+path="res://.godot/imported/projectiles_and_effects_256x128_SpriteSheet.png-779015e63ae81a8d667e41fa5b84d35a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Elementals_Leaf_ranger_Free_v1.0/Elementals_Leaf_ranger_Free_v1.0/animations/spritesheets/projectiles_and_effects_256x128_SpriteSheet.png"
-dest_files=["res://.godot/imported/projectiles_and_effects_256x128_SpriteSheet.png-299baa4f205ddc6a4f765815764ab821.ctex"]
+source_file="res://assets/INIMIGOS/Elementals_Leaf_ranger_Free_v1.0/Elementals_Leaf_ranger_Free_v1.0/animations/spritesheets/projectiles_and_effects_256x128_SpriteSheet.png"
+dest_files=["res://.godot/imported/projectiles_and_effects_256x128_SpriteSheet.png-779015e63ae81a8d667e41fa5b84d35a.ctex"]
 
 [params]
 

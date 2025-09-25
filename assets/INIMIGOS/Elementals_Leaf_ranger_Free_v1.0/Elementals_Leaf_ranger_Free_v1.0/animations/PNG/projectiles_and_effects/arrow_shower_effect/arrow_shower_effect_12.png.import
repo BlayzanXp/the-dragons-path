@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bovbu15nta8fd"
-path="res://.godot/imported/arrow_shower_effect_12.png-c8c95e35b6e1217cfda73c920bda2bd3.ctex"
+uid="uid://c4yjmvwx6u0de"
+path="res://.godot/imported/arrow_shower_effect_12.png-cf2152aa5f2a7ba55abad426ed76f110.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Elementals_Leaf_ranger_Free_v1.0/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/projectiles_and_effects/arrow_shower_effect/arrow_shower_effect_12.png"
-dest_files=["res://.godot/imported/arrow_shower_effect_12.png-c8c95e35b6e1217cfda73c920bda2bd3.ctex"]
+source_file="res://assets/INIMIGOS/Elementals_Leaf_ranger_Free_v1.0/Elementals_Leaf_ranger_Free_v1.0/animations/PNG/projectiles_and_effects/arrow_shower_effect/arrow_shower_effect_12.png"
+dest_files=["res://.godot/imported/arrow_shower_effect_12.png-cf2152aa5f2a7ba55abad426ed76f110.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cg4ix8ipg1dol"
-path="res://.godot/imported/UI_Flat_Bar08a.png-dab04da6d4cd604554e55e8f6c2f16c4.ctex"
+uid="uid://cp4ntgpvgh1sg"
+path="res://.godot/imported/UI_Flat_Bar08a.png-9f6efadc8be80af39d17404e265e4f94.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Complete_UI_Essential_Pack_Free/Complete_UI_Essential_Pack_Free/01_Flat_Theme/Sprites/UI_Flat_Bar08a.png"
-dest_files=["res://.godot/imported/UI_Flat_Bar08a.png-dab04da6d4cd604554e55e8f6c2f16c4.ctex"]
+source_file="res://assets/ASSETS/Complete_UI_Essential_Pack_Free/Complete_UI_Essential_Pack_Free/01_Flat_Theme/Sprites/UI_Flat_Bar08a.png"
+dest_files=["res://.godot/imported/UI_Flat_Bar08a.png-9f6efadc8be80af39d17404e265e4f94.ctex"]
 
 [params]
 

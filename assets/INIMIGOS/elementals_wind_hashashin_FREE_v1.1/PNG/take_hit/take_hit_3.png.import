@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c81dh285n08vt"
-path="res://.godot/imported/take_hit_3.png-25223c7950dc61f52b9cb4a48e1af604.ctex"
+uid="uid://bifmoajjh0wpk"
+path="res://.godot/imported/take_hit_3.png-2be4c4c332945720fd6851716297b33e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/elementals_wind_hashashin_FREE_v1.1/PNG/take_hit/take_hit_3.png"
-dest_files=["res://.godot/imported/take_hit_3.png-25223c7950dc61f52b9cb4a48e1af604.ctex"]
+source_file="res://assets/INIMIGOS/elementals_wind_hashashin_FREE_v1.1/PNG/take_hit/take_hit_3.png"
+dest_files=["res://.godot/imported/take_hit_3.png-2be4c4c332945720fd6851716297b33e.ctex"]
 
 [params]
 

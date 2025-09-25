@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c7p3s2ktdq1jx"
-path="res://.godot/imported/UI_Flat_IconCross01c.png-16a11725f4f9c0c849e51d78ef1b9551.ctex"
+uid="uid://b3lrhuyjeve4p"
+path="res://.godot/imported/UI_Flat_IconCross01c.png-fe4060a65f7877e2883dc5c26386a809.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Complete_UI_Essential_Pack_Free/Complete_UI_Essential_Pack_Free/01_Flat_Theme/Sprites/UI_Flat_IconCross01c.png"
-dest_files=["res://.godot/imported/UI_Flat_IconCross01c.png-16a11725f4f9c0c849e51d78ef1b9551.ctex"]
+source_file="res://assets/ASSETS/Complete_UI_Essential_Pack_Free/Complete_UI_Essential_Pack_Free/01_Flat_Theme/Sprites/UI_Flat_IconCross01c.png"
+dest_files=["res://.godot/imported/UI_Flat_IconCross01c.png-fe4060a65f7877e2883dc5c26386a809.ctex"]
 
 [params]
 

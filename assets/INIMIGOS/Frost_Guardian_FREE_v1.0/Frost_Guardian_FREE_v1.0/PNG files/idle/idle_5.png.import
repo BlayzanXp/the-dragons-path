@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cpio0wa10hro2"
-path="res://.godot/imported/idle_5.png-41070ad1daa53967f74817f02a628089.ctex"
+uid="uid://diefv84mpuafp"
+path="res://.godot/imported/idle_5.png-7dfecb82bb1e4af7fb317fa0ba9ce502.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Frost_Guardian_FREE_v1.0/Frost_Guardian_FREE_v1.0/PNG files/idle/idle_5.png"
-dest_files=["res://.godot/imported/idle_5.png-41070ad1daa53967f74817f02a628089.ctex"]
+source_file="res://assets/INIMIGOS/Frost_Guardian_FREE_v1.0/Frost_Guardian_FREE_v1.0/PNG files/idle/idle_5.png"
+dest_files=["res://.godot/imported/idle_5.png-7dfecb82bb1e4af7fb317fa0ba9ce502.ctex"]
 
 [params]
 

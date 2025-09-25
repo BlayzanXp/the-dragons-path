@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://k8lxkbr73lt5"
-path="res://.godot/imported/demon_idle_1.png-1dfee40cd516035dccab1596565e88ab.ctex"
+uid="uid://csgndadgtcw4x"
+path="res://.godot/imported/demon_idle_1.png-44c89b3f75a2c3895f102d5c088c1e54.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/boss_demon_slime_FREE_v1.0/individual sprites/01_demon_idle/demon_idle_1.png"
-dest_files=["res://.godot/imported/demon_idle_1.png-1dfee40cd516035dccab1596565e88ab.ctex"]
+source_file="res://assets/INIMIGOS/boss_demon_slime_FREE_v1.0/individual sprites/01_demon_idle/demon_idle_1.png"
+dest_files=["res://.godot/imported/demon_idle_1.png-44c89b3f75a2c3895f102d5c088c1e54.ctex"]
 
 [params]
 

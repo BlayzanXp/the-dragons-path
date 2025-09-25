@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cbqj58elkdpif"
-path="res://.godot/imported/Inventory_Bar.png-93b8ce87a4b5b9371916ed3626d42cf9.ctex"
+uid="uid://dxgijlxjox62a"
+path="res://.godot/imported/Inventory_Bar.png-b37f16b36a4d751dff7316d3322dd31f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Free Inventory/Free Inventory/Inventory_Bar.png"
-dest_files=["res://.godot/imported/Inventory_Bar.png-93b8ce87a4b5b9371916ed3626d42cf9.ctex"]
+source_file="res://assets/ASSETS/Free Inventory/Free Inventory/Inventory_Bar.png"
+dest_files=["res://.godot/imported/Inventory_Bar.png-b37f16b36a4d751dff7316d3322dd31f.ctex"]
 
 [params]
 

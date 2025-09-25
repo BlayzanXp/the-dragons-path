@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ddpsvsif6iq4"
-path="res://.godot/imported/roll_2.png-7925b5f29729a07b076676806ab2c08f.ctex"
+uid="uid://5ss2a2h2gais"
+path="res://.godot/imported/roll_2.png-49fffdcb710c923ffe2118577e9d28f0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/elementals_wind_hashashin_FREE_v1.1/PNG/roll/roll_2.png"
-dest_files=["res://.godot/imported/roll_2.png-7925b5f29729a07b076676806ab2c08f.ctex"]
+source_file="res://assets/INIMIGOS/elementals_wind_hashashin_FREE_v1.1/PNG/roll/roll_2.png"
+dest_files=["res://.godot/imported/roll_2.png-49fffdcb710c923ffe2118577e9d28f0.ctex"]
 
 [params]
 
